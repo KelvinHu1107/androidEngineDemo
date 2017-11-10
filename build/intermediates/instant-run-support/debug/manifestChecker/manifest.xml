@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kingwaytek.naviking3d.app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WAKE_LOCK" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+    <application
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.kingwaytek.naviking3d.app.Start"
+            android:label="@string/title_activity_start" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kingwaytek.naviking3d.app.UI_Caution"
+            android:configChanges="screenLayout|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.kingwaytek.naviking3d.app.dlg.DLG_MAIN_MENU"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.kingwaytek.naviking3d.app.dlg.DLG_SEARCH_NEAR"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.kingwaytek.naviking3d.app.dlg.DLG_SEARCH_NEAR_LIST"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.kingwaytek.naviking3d.app.dlg.DLG_SEARCH_INT"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.kingwaytek.naviking3d.app.dlg.DLG_SEARCH_INT_LIST"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.kingwaytek.naviking3d.app.dlg.DLG_SEARCH_KIND"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.kingwaytek.naviking3d.app.dlg.DLG_SEARCH_KIND2"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.kingwaytek.naviking3d.app.dlg.DLG_SEARCH_KIND3"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.kingwaytek.naviking3d.app.dlg.DLG_SEARCH_KIND_LIST"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.kingwaytek.naviking3d.app.dlg.DLG_SEARCH_TEL_LIST"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.kingwaytek.naviking3d.app.dlg.DLG_ROUTE_SUM"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.kingwaytek.naviking3d.app.dlg.DLG_SEARCH_NAME_LIST"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.kingwaytek.naviking3d.app.dlg.DLG_SEARCH_GROUP_LIST"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.kingwaytek.naviking3d.app.dlg.DLG_RECENT_DEST_LIST"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.kingwaytek.naviking3d.app.dlg.DLG_RECENT_ROUTE_LIST"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.kingwaytek.naviking3d.app.dlg.DLG_VIEW_MAP_SEARCH"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.kingwaytek.naviking3d.app.dlg.DLG_SEARCH_REG_LOCATION"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.kingwaytek.naviking3d.app.dlg.DLG_SEARCH_UBCODE_LIST"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.kingwaytek.naviking3d.app.dlg.DLG_SEARCH_MS_LIST"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.kingwaytek.naviking3d.app.dlg.DLG_ROUTE_LIST"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity android:name="com.kingwaytek.naviking3d.app.MapViewActivity" >
+        </activity>
+        <activity
+            android:name="com.kingwaytek.naviking3d.app.PoiIconTest"
+            android:label="@string/title_activity_poi_icon_test" >
+        </activity>
+        <activity
+            android:name="com.kingwaytek.naviking3d.app.CarTestActivity"
+            android:label="@string/title_activity_car_test" >
+        </activity>
+        <activity
+            android:name="com.kingwaytek.naviking3d.app.ExSettingActivity"
+            android:label="@string/title_activity_ex_setting" >
+        </activity>
+        <activity
+            android:name="com.kingwaytek.naviking3d.app.RouteActivity"
+            android:label="@string/title_activity_route" >
+        </activity>
+        <activity
+            android:name="com.kingwaytek.naviking3d.app.RouteConfigActivity"
+            android:label="@string/title_activity_route_config" >
+        </activity>
+        <activity
+            android:name="com.kingwaytek.naviking3d.app.RouteListActivity"
+            android:label="@string/title_activity_route_list" >
+        </activity>
+        <activity
+            android:name="com.kingwaytek.naviking3d.app.RouteDetailActivity"
+            android:label="@string/title_activity_route_detail" >
+        </activity>
+        <activity android:name="com.kingwaytek.naviking3d.app.RegionFilter1" >
+        </activity>
+        <activity android:name="com.kingwaytek.naviking3d.app.RegionFilter2" >
+        </activity>
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.kingwaytek.naviking3d.app.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

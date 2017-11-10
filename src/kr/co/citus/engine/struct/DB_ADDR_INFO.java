@@ -1,9 +1,9 @@
 package kr.co.citus.engine.struct;
 
 public class DB_ADDR_INFO {
-	String 		name;	///< ¾÷Á¾ÀÌ¸§
-	int			num;		///< ÇÏÀ§¾÷Á¾ °³¼ö
-	int			code;		///< ¾÷Á¾ÄÚµå
+	String 		name;	///< ï¿½ï¿½ï¿½ï¿½ï¿½Ì¸ï¿½
+	int			num;		///< ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+	int			code;		///< ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½
 	public DB_ADDR_INFO()	{ init(); }
 	void init()
 	{

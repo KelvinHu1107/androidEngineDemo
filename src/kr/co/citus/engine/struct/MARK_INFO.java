@@ -2,14 +2,14 @@ package kr.co.citus.engine.struct;
 
 public class MARK_INFO {
 	
-	public String			name;			///< ÀÌ¸§    
-	public String			desc;			///< ¼³¸í
-	public String			tel;			///< ÀüÈ­
+	public String			name;			///< ï¿½Ì¸ï¿½    
+	public String			desc;			///< ï¿½ï¿½ï¿½ï¿½
+	public String			tel;			///< ï¿½ï¿½È­
 	public int				addrIdx;
-	public int				x;				///< À§Ä¡ÁÂÇ¥ X
-	public int				y;				///< À§Ä¡ÁÂÇ¥ Y
-	public int				kind;			///< Á¾º°ÄÚµå, µî·ÏÁöÀÏ°æ¿ì¿¡´Â HOT¿©ºÎ·Î »ç¿ë
-	public int				symbol;			///< Ç¥½Ã ½Éº¼
+	public int				x;				///< ï¿½ï¿½Ä¡ï¿½ï¿½Ç¥ X
+	public int				y;				///< ï¿½ï¿½Ä¡ï¿½ï¿½Ç¥ Y
+	public int				kind;			///< ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ì¿¡ï¿½ï¿½ HOTï¿½ï¿½ï¿½Î·ï¿½ ï¿½ï¿½ï¿½
+	public int				symbol;			///< Ç¥ï¿½ï¿½ ï¿½Éºï¿½
 	public int				groupIdx;
 
 	public MARK_INFO()	{ init(); }

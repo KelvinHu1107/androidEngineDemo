@@ -2,13 +2,13 @@ package kr.co.citus.engine.struct;
 
 public class POI_INFO {
 	
-	public String	name;	///< °Ë»ö¸í
-	public String	addr;	///< °Ë»öÀ§Ä¡ ÁÖ¼Ò
-	public String	tel;	///< °Ë»öÀ§Ä¡ ÀüÈ­¹øÈ£
+	public String	name;	///< ï¿½Ë»ï¿½ï¿½ï¿½
+	public String	addr;	///< ï¿½Ë»ï¿½ï¿½ï¿½Ä¡ ï¿½Ö¼ï¿½
+	public String	tel;	///< ï¿½Ë»ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½È­ï¿½ï¿½È£
 	public String	kindName;
 	public int		x,y;		// srpark
 	public byte		rp_flag;
-	public int		kind;		///< ¾÷Á¾ÄÚµå
+	public int		kind;		///< ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½
 	public int		roadid_and_se;
 	
 	

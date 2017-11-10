@@ -102,14 +102,14 @@ public class DLG_SEARCH_NEAR extends Activity
 			});
 		}
 		
-		// jolee is for POI_0704 øµ××ßÂïÁ
+		// jolee is for POI_0704 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		{
 			int i = 15;
 			int kind_idx = citus_api.NDB_Kind_FindByCode("070400");
 			int obj_id_text = getResources().getIdentifier("Button"+i, "id", getPackageName());
 			Button btn = (Button)findViewById(obj_id_text);
 			
-				btn.setText(new String("øµ××ßÂïÁ"));
+				btn.setText(new String("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"));
 				btn.setTag(new Integer(kind_idx));
 			
 			btn.setOnClickListener(new View.OnClickListener() {
@@ -148,9 +148,9 @@ public class DLG_SEARCH_NEAR extends Activity
 	private boolean alert(String _msg)
 	{
 		new AlertDialog.Builder(DLG_SEARCH_NEAR.this)
-		.setTitle("¾Ë¸²")
+		.setTitle("ï¿½Ë¸ï¿½")
 	    .setMessage(_msg)
-		.setPositiveButton("È®ÀÎ", null)
+		.setPositiveButton("È®ï¿½ï¿½", null)
 		.show();
 		return false;
 	}

@@ -151,9 +151,9 @@ public class DLG_MAIN_MENU extends Activity
 	private boolean alert(String _msg)
 	{
 		new AlertDialog.Builder(DLG_MAIN_MENU.this)
-		.setTitle("알림")
+		.setTitle("???")
 	    .setMessage(_msg)
-		.setPositiveButton("확인", null)
+		.setPositiveButton("???", null)
 		.show();
 		return false;
 	}

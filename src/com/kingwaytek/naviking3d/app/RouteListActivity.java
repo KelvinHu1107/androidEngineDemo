@@ -1,4 +1,4 @@
-﻿package com.kingwaytek.naviking3d.app;
+package com.kingwaytek.naviking3d.app;
 
 import java.util.ArrayList;
 

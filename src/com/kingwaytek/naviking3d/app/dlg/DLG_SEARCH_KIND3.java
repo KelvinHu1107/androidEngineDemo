@@ -111,9 +111,9 @@ public class DLG_SEARCH_KIND3 extends Activity
 	private boolean alert(String _msg)
 	{
 		new AlertDialog.Builder(DLG_SEARCH_KIND3.this)
-		.setTitle("¾Ë¸²")
+		.setTitle("ï¿½Ë¸ï¿½")
 	    .setMessage(_msg)
-		.setPositiveButton("È®ÀÎ", null)
+		.setPositiveButton("È®ï¿½ï¿½", null)
 		.show();
 		return false;
 	}

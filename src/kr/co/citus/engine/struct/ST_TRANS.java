@@ -1,8 +1,8 @@
 package kr.co.citus.engine.struct;
 
 public class ST_TRANS {
-	public int 		dist; // °Å¸®
-	public int		time; // ½Ã°£
+	public int 		dist; // ï¿½Å¸ï¿½
+	public int		time; // ï¿½Ã°ï¿½
 	public int		pathCnt;
 	public String[]	fname;
 	public String[]	routeNm;

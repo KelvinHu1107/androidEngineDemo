@@ -9,21 +9,21 @@ public class RECENT_DEST_ITEM {
 	public int		lrpx;
 	public int		lrpy;
 	
-	public String	szStart;		// ├т╣▀┴Ў ╕э─к
-	public IPOINT	pos_start;		// ├т╣▀┴Ў └з─б
-	public String	szDestination;	// ╡╡┬°┴Ў ╕э─к
-	public IPOINT	pos_end;		// ╡╡┬°┴Ў └з─б
-	public int		destRpOpt;		// ╕ё└√┴Ў ▒ю┴Ў ░ц╖╬ ┼╜╗Ў ┐╔╝╞ (├▀├╡/░э╝╙/└╧╣▌/├╓┤▄)
-	public int		nViaPos;		// ░ц└п┴Ў ░│╝Ў
-	public String[]	szViaName;		// ░ц└п┴Ў ╕э─к
-	public IPOINT[]	pos_via;		// ░ц└п┴Ў └з─б // ░б╗є ░ц└п┴Ў └з─б╕ж └·└х╟╧▒т └з╟╪ ┐й└п └╓░╘ └т┤┬┤┘. 
-	public IPOINT[]	pos_via2;		// ░ц└п┴Ў └з─б // ░б╗є ░ц└п┴Ў └з─б╕ж └·└х╟╧▒т └з╟╪ ┐й└п └╓░╘ └т┤┬┤┘. 
-	public int[]	viaRpOpt;		// ░ц└п┴Ў║░ ┼╜╗Ў ┐╔╝╟ (├▀├╡/░э╝╙/└╧╣▌/├╓┤▄)
+	public String	szStart;		// я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜─к
+	public IPOINT	pos_start;		// я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜─б
+	public String	szDestination;	// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜─к
+	public IPOINT	pos_end;		// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜─б
+	public int		destRpOpt;		// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ ┼╜я┐╜я┐╜ я┐╜╔╝я┐╜ (я┐╜я┐╜├╡/я┐╜я┐╜я┐╜/я┐╜╧╣я┐╜/я┐╜╓┤я┐╜)
+	public int		nViaPos;		// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜
+	public String[]	szViaName;		// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜─к
+	public IPOINT[]	pos_via;		// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜─б // я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜─бя┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜╧▒я┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜╓░я┐╜ я┐╜я┐╜┬┤я┐╜. 
+	public IPOINT[]	pos_via2;		// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜─б // я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜─бя┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜╧▒я┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜╓░я┐╜ я┐╜я┐╜┬┤я┐╜. 
+	public int[]	viaRpOpt;		// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ ┼╜я┐╜я┐╜ я┐╜╔╝я┐╜ (я┐╜я┐╜├╡/я┐╜я┐╜я┐╜/я┐╜╧╣я┐╜/я┐╜╓┤я┐╜)
 	
-	public int		pos_start_x;		// ├т╣▀┴Ў └з─б
-	public int		pos_start_y;		// ├т╣▀┴Ў └з─б
-	public int		pos_end_x;		// ╡╡┬°┴Ў └з─б
-	public int		pos_end_y;		// ╡╡┬°┴Ў └з─б
+	public int		pos_start_x;		// я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜─б
+	public int		pos_start_y;		// я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜─б
+	public int		pos_end_x;		// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜─б
+	public int		pos_end_y;		// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜─б
 
 	public RECENT_DEST_ITEM()	{ init(); }
 	void init()

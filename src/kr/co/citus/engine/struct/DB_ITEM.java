@@ -1,21 +1,21 @@
 package kr.co.citus.engine.struct;
 
 public class DB_ITEM {
-	public int	x;							///< POIÀ§Ä¡ ÁÂÇ¥
-	public int	y;							///< POIÀ§Ä¡ ÁÂÇ¥
-	public int	kind;						///< ¾÷Á¾ÄÚµå
-	public short	length;						///< ¹°ÀÚ¿­ ±æÀÌ
-	public int		addr1;				///< ÁÖ¼ÒÄÚµå
-	public int		addr2;				///< ÁÖ¼ÒÄÚµå
-	public int		addr3;				///< ÁÖ¼ÒÄÚµå
-	public int		dist;						///< ÇöÀçÀ§Ä¡¿¡¼­ÀÇ °Å¸®(¹Ý°æ°Ë»öÀÏ °æ¿ì¿¡¸¸)
-	public short	tel_range;					///< ÀüÈ­¹øÈ£ Range°ª
-	public int		bodyIdx;					///< DB BodyÀÇ Index
-	public int		detail;						// »ó¼¼Á¤º¸¸¦ °¡Á®¿À±â À§ÇÑ ¿ÀÇÁ¼Â(114¿ë)
-	public int		match;						// ¸ÅÄª Á¤È®µµ (114¿ë)
+	public int	x;							///< POIï¿½ï¿½Ä¡ ï¿½ï¿½Ç¥
+	public int	y;							///< POIï¿½ï¿½Ä¡ ï¿½ï¿½Ç¥
+	public int	kind;						///< ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½
+	public short	length;						///< ï¿½ï¿½ï¿½Ú¿ï¿½ ï¿½ï¿½ï¿½ï¿½
+	public int		addr1;				///< ï¿½Ö¼ï¿½ï¿½Úµï¿½
+	public int		addr2;				///< ï¿½Ö¼ï¿½ï¿½Úµï¿½
+	public int		addr3;				///< ï¿½Ö¼ï¿½ï¿½Úµï¿½
+	public int		dist;						///< ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Å¸ï¿½(ï¿½Ý°ï¿½Ë»ï¿½ï¿½ï¿½ ï¿½ï¿½ì¿¡ï¿½ï¿½)
+	public short	tel_range;					///< ï¿½ï¿½È­ï¿½ï¿½È£ Rangeï¿½ï¿½
+	public int		bodyIdx;					///< DB Bodyï¿½ï¿½ Index
+	public int		detail;						// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(114ï¿½ï¿½)
+	public int		match;						// ï¿½ï¿½Äª ï¿½ï¿½È®ï¿½ï¿½ (114ï¿½ï¿½)
 	public int		telIdx;						///< telIdx;
-	public int		accuracy;					///< POI Á¤È®µµ 50m ÀÌ³», 100m ¹Ì¸¸ 100m ÀÌ»ó
-	public int		angle;						//< ÇöÀç Â÷ÀÇ À§Ä¡¿Í POI¿ÍÀÇ °¢µµ
+	public int		accuracy;					///< POI ï¿½ï¿½È®ï¿½ï¿½ 50m ï¿½Ì³ï¿½, 100m ï¿½Ì¸ï¿½ 100m ï¿½Ì»ï¿½
+	public int		angle;						//< ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ POIï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 	public int		group_id;
 	public int		group_cnt;
 	public int		ori_len;
@@ -23,7 +23,7 @@ public class DB_ITEM {
 	public String	ubcode;
 	public String	tel_ori;
 	public String	addr_str;
-	public String	name;					///< ÀÌ¸§ (°¡º¯Å©±âÀÓ)
+	public String	name;					///< ï¿½Ì¸ï¿½ (ï¿½ï¿½ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½)
 	public String 	strAddr;
 	public String	strTel;
 	

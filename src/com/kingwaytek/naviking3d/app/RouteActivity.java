@@ -1,4 +1,4 @@
-﻿package com.kingwaytek.naviking3d.app;
+package com.kingwaytek.naviking3d.app;
 
 import kr.co.citus.engine.citus_api;
 import android.app.Activity;

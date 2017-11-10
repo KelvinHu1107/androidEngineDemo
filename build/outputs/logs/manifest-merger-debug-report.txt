@@ -3,6 +3,7 @@ manifest
 ADDED from C:\Users\kelvinhu1107\Desktop\Projects\androidEngineDemo\AndroidManifest.xml:2:1-191:12
 INJECTED from C:\Users\kelvinhu1107\Desktop\Projects\androidEngineDemo\AndroidManifest.xml:2:1-191:12
 INJECTED from C:\Users\kelvinhu1107\Desktop\Projects\androidEngineDemo\AndroidManifest.xml:2:1-191:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\kelvinhu1107\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\9130818e835ed302cf6cc6f0f7e78440\AndroidManifest.xml:17:1-22:12
 INJECTED from C:\Users\kelvinhu1107\Desktop\Projects\androidEngineDemo\AndroidManifest.xml:2:1-191:12
 INJECTED from C:\Users\kelvinhu1107\Desktop\Projects\androidEngineDemo\AndroidManifest.xml:2:1-191:12
 	package
@@ -19,6 +20,8 @@ INJECTED from C:\Users\kelvinhu1107\Desktop\Projects\androidEngineDemo\AndroidMa
 		INJECTED from C:\Users\kelvinhu1107\Desktop\Projects\androidEngineDemo\AndroidManifest.xml
 uses-sdk
 ADDED from C:\Users\kelvinhu1107\Desktop\Projects\androidEngineDemo\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\kelvinhu1107\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\9130818e835ed302cf6cc6f0f7e78440\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\kelvinhu1107\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\9130818e835ed302cf6cc6f0f7e78440\AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
 		ADDED from C:\Users\kelvinhu1107\Desktop\Projects\androidEngineDemo\AndroidManifest.xml:9:9-38
 	android:minSdkVersion

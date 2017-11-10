@@ -7,7 +7,7 @@ public class Mutex
 	public Mutex() {
 	}
 	
-	public synchronized boolean set_enter() // true ÀÌ¸é µ¿ÀÛÇÑ´Ù..
+	public synchronized boolean set_enter() // true ï¿½Ì¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½..
 	{
 		if (m_is_enter) return false;
 		m_is_enter = true;

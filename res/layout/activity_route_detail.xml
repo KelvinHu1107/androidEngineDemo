@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RouteDetailActivity" >
+
+    <RelativeLayout
+        android:id="@+id/groupRouteTitle"
+        style="@style/layout_title"
+        android:layout_alignParentTop="true" >
+
+        <Button
+            android:id="@+id/btnBack"
+            style="@style/btn_back" />
+
+        <TextView
+            android:id="@+id/txtPNSTitle"
+            style="@style/txt_title"
+            android:text="Route Detail" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <SurfaceView
+            android:id="@+id/surfaceViewRouteDetail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/btnAvoidArea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="Avoid Area" />
+
+        <Button
+            android:id="@+id/btnAvoidLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="Avoid Link" />
+
+    </RelativeLayout>
+    
+</LinearLayout>

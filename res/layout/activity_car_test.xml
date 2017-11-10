@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CarTestActivity" >
+
+    <RadioGroup
+        android:id="@+id/radioGroupCarType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:tag="car_type" >
+        
+        <RadioButton
+            android:id="@+id/radioCar"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Car" />
+
+    	<RadioButton
+        	android:id="@+id/radioScooter"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Scooter" />
+
+    	<RadioButton
+        	android:id="@+id/radioBigBike"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="BigBike" />
+
+    	<RadioButton
+        	android:id="@+id/radioTruck"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Truck" />
+
+    	<RadioButton
+        	android:id="@+id/radioBigTruck"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="BigTruck" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewCarIdx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Car index"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/editTextCarIdx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input car index number 0 ~ 7"
+        android:ems="10"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonApplyCar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apply" />
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:text="Set Guide line option"/>
+    
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:tag="guide_line" >
+        
+        <RadioButton 
+            android:id="@+id/radioGuildeOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hide"/>
+        
+        <RadioButton 
+            android:id="@+id/radioGuideVia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="to via"/>
+        
+        <RadioButton 
+            android:id="@+id/radioGuideDest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="to dest"/>
+
+    </RadioGroup>
+
+</LinearLayout>

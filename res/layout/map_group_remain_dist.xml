@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/bottom_bar_height"
+    android:background="@drawable/navi_bottombar_tripsum_bg" >
+
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:paddingLeft="5dp"
+        android:layout_weight="1">
+        
+         <ImageView
+             android:id="@+id/imageViewIcon"
+             android:padding="3dp"
+             android:layout_height="match_parent"
+             android:layout_width="20dp"
+             android:src="@drawable/navi_bottombar_tripsum_icon_waypoint" />
+
+         <TextView
+             android:id="@+id/textViewCarIdx"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:gravity="left|center_vertical"
+             android:textColor="#ffffff"
+             android:text="Remain" />
+        
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/textViewRemainDist"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:text="693m"
+        android:textColor="#80deea" />
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/imageViewHeadUp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/navi_bottombar_tripsum_bg" />
+
+    <ImageButton
+        android:id="@+id/btnMenu"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/xml_btn_map_menu"
+        android:onClick="onClickMenu" />
+
+    <TextView
+        android:id="@+id/textViewCurrentRoad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnMenu"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/btnMenu"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textViewCurrentLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewCurrentRoad"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#72d6e3" />
+
+    <include
+        android:id="@+id/groupCompass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/imageViewHeadUp"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="5dp"
+        layout="@layout/map_group_speed_compass" />
+    
+    <Button
+        android:id="@+id/buttonDriveView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/groupCompass"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="5dp"
+        android:text="DriveView"
+        android:padding="3dp" />
+    
+    <Button 
+        android:id="@+id/buttonStandardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/buttonDriveView"
+        android:layout_above="@id/groupCompass"
+        android:layout_margin="5dp"
+        android:text="3DView"
+        android:padding="3dp" />
+
+    <include
+        android:id="@+id/include1"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/bottom_bar_height"
+        android:layout_above="@id/imageViewHeadUp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        layout="@layout/map_group_remain_dist" />
+
+    <Button
+        android:id="@+id/buttonTestDemo"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_above="@+id/include1"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/turnpanel_turn_dot"
+        android:onClick="onClickTest" />
+
+</RelativeLayout>

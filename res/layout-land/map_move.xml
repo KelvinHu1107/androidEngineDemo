@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >    
+
+    <ImageView
+        android:id="@+id/imageView2D"
+        android:layout_width="@dimen/map_move_icon_size"
+        android:layout_height="@dimen/map_move_icon_size"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/map_view_slider_2d" />
+    
+    <ImageView
+        android:id="@+id/imageViewSlideTile"
+        android:layout_width="@dimen/map_move_icon_size"
+        android:layout_height="120dp"
+        android:layout_alignLeft="@id/imageView2D"
+        android:layout_below="@id/imageView2D"
+        android:background="@drawable/map_view_slider_tile" />
+    
+    <ImageView
+        android:id="@+id/imageView3D"
+        android:layout_width="@dimen/map_move_icon_size"
+        android:layout_height="@dimen/map_move_icon_size"
+        android:layout_alignLeft="@id/imageView2D"
+        android:layout_below="@id/imageViewSlideTile"
+        android:src="@drawable/map_view_slider_3d" />
+
+    <Button
+        android:id="@+id/buttonHeadUp"
+        android:layout_width="@dimen/map_move_icon_size"
+        android:layout_height="@dimen/map_move_icon_size"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/imageView2D"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:onClick="onClickHeadup"
+        android:background="@drawable/xml_btn_headup" />
+    
+    <Button
+        android:id="@+id/buttonNorthUp"
+        android:layout_width="@dimen/map_move_icon_size"
+        android:layout_height="@dimen/map_move_icon_size"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/imageView2D"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:onClick="onClickHeadup"
+        android:visibility="gone"
+        android:background="@drawable/xml_btn_northup" />
+
+    <Button
+        android:id="@+id/buttonGoCurrent"
+        android:layout_width="@dimen/map_move_icon_size"
+        android:layout_height="@dimen/map_move_icon_size"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/map_go_gps_off" />
+    
+    <Button
+        android:id="@+id/buttonZoomIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@id/buttonGoCurrent"
+        android:layout_margin="5dp"
+        android:background="#ffffffff"
+        android:text="ZoomIn"
+        android:textSize="18sp"
+        android:padding="3dp" />
+    
+    <Button
+        android:id="@+id/buttonZoomOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@id/buttonZoomIn"
+        android:layout_margin="5dp"
+        android:background="#ffffffff"
+        android:text="ZoomOut"
+        android:textSize="18sp"
+        android:padding="3dp" />
+    
+    <ImageView
+        android:id="@+id/imageViewCompassMove"
+        android:layout_width="@dimen/compass_size"
+        android:layout_height="@dimen/compass_size"
+       	android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/map_vbtn_compass" />
+
+    <com.kingwaytek.naviking3d.app.VerticalSeekBar
+        android:id="@+id/verticalSeekBarLaydown"
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:layout_below="@+id/imageView2D"
+        android:layout_alignLeft="@+id/imageViewSlideTile"
+        android:layout_marginLeft="8dp"
+        android:max="20"
+        android:progress="0" />
+    
+    <Button 
+        android:id="@+id/buttonTestDemo"
+        android:background="@drawable/turnpanel_turn_dot"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:onClick="onClickTest" />
+    
+    <Button 
+        android:id="@+id/buttonPickDetail"
+        android:layout_width="@dimen/map_move_icon_size"
+        android:layout_height="@dimen/map_move_icon_size"
+        android:layout_toLeftOf="@id/imageView2D"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="DO" />
+    
+    <TextView
+        android:id="@+id/textViewPick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp"
+        android:layout_toLeftOf="@id/buttonPickDetail"
+        android:layout_toRightOf="@id/buttonGoCurrent"
+        android:background="#FFFFFFFF"
+        android:textSize="20sp" />
+
+    <com.kingwaytek.naviking3d.app.ScaleView
+        android:id="@+id/vwScale"
+        android:layout_width="150dip"
+        android:layout_height="30dip"
+        android:layout_alignTop="@+id/imageViewCompassMove"
+        android:layout_toRightOf="@+id/imageViewCompassMove"
+        android:background="#FFFFFFFF" />
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/bottom_bar_height"
+    android:background="#30000000"
+    android:paddingLeft="5dp"
+    android:orientation="horizontal" >
+    
+    <LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/speed_digit_height" >
+            
+            <ImageView
+                android:id="@+id/imageViewDigit1"
+                android:layout_height="match_parent"
+                android:layout_width="@dimen/speed_digit_width"
+                android:background="@drawable/navi_speed_digit_0" />
+
+            <ImageView
+                android:id="@+id/imageViewDigit2"
+                android:layout_height="match_parent"
+                android:layout_width="@dimen/speed_digit_width"
+                android:background="@drawable/navi_speed_digit_1" />
+
+            <ImageView
+                android:id="@+id/imageViewDigit3"
+                android:layout_height="match_parent"
+                android:layout_width="@dimen/speed_digit_width"
+                android:background="@drawable/navi_speed_digit_2" />
+            
+        </LinearLayout>
+        
+        <TextView
+            android:id="@+id/textViewKMH"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/speed_unit_height"
+            android:gravity="right|center_vertical"
+            android:text="km/h"
+            android:textSize="@dimen/speed_unit_text_height" />
+        
+    </LinearLayout>
+    
+    <ImageView
+        android:id="@+id/imageViewCompass"
+        android:layout_width="@dimen/bottom_bar_height"
+        android:layout_height="@dimen/bottom_bar_height"
+        android:background="@drawable/navi_course_bg"
+        android:padding="0dp"
+        android:src="@drawable/map_vbtn_compass" />
+
+</LinearLayout>

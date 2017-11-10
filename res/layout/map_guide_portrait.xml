@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ImageView
+        android:id="@+id/imageViewHeadUp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/navi_bottombar_tripsum_bg" />
+
+    <ImageButton
+        android:id="@+id/btnMenu"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/xml_btn_map_menu" />
+
+    <TextView
+        android:id="@+id/textViewCurrentRoad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnMenu"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/btnMenu"
+        android:text="Medium Text"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewCurrentLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewCurrentRoad"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Medium Text"
+        android:textColor="#72d6e3"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewKMH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageViewHeadUp"
+        android:layout_alignBottom="@+id/imageViewSpeedPanel"
+        android:layout_alignRight="@+id/btnMenu"
+        android:layout_marginBottom="3dp"
+        android:text="km/h" />
+
+    <ImageView
+        android:id="@+id/imageViewSpeedPanel"
+        android:layout_height="@dimen/speed_panel_height"
+        android:layout_width="@dimen/speed_panel_width"
+        android:layout_above="@+id/imageViewHeadUp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="3dp"
+        android:alpha="0.3"
+        android:background="#000000" />
+
+    <ImageView
+        android:id="@+id/imageViewDigit1"
+        android:layout_height="@dimen/speed_digit_height"
+        android:layout_width="@dimen/speed_digit_width"
+        android:layout_alignLeft="@+id/imageViewSpeedPanel"
+        android:layout_marginLeft="3dp"
+        android:layout_above="@+id/textViewKMH"
+        android:layout_marginBottom="3dp"
+        
+        android:background="@drawable/navi_speed_digit_0" />
+
+    <ImageView
+        android:id="@+id/imageViewDigit2"
+        android:layout_height="@dimen/speed_digit_height"
+        android:layout_width="@dimen/speed_digit_width"
+        android:layout_toRightOf="@+id/imageViewDigit1"
+        android:layout_alignTop="@+id/imageViewDigit1"
+        android:background="@drawable/navi_speed_digit_1" />
+
+    <ImageView
+        android:id="@+id/imageViewDigit3"
+        android:layout_height="@dimen/speed_digit_height"
+        android:layout_width="@dimen/speed_digit_width"
+        android:layout_toRightOf="@+id/imageViewDigit2"
+        android:layout_alignTop="@+id/imageViewDigit2"
+        android:background="@drawable/navi_speed_digit_2" />
+
+    <ImageView
+        android:id="@+id/imageViewCompass"
+        android:layout_width="@dimen/compass_size"
+        android:layout_height="@dimen/compass_size"
+       	android:layout_alignBottom="@+id/textViewKMH"
+        android:layout_toRightOf="@+id/imageViewDigit3"
+        android:layout_marginLeft="3dp"
+        android:src="@drawable/map_vbtn_compass" />
+    
+    <include layout="@layout/map_group_remain_dist"
+        android:id="@+id/groupRemainDist"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/remain_dist_group_height"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:layout_above="@+id/imageViewHeadUp"
+        android:layout_marginBottom="5dp" />
+</RelativeLayout>

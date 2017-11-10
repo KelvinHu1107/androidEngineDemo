@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RousenR13</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_start">Start</string>
+    <string name="title_activity_poi_icon_test">PoiIconTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_car_test">CarTestActivity</string>
+    <string name="title_activity_ex_setting">ExSettingActivity</string>
+    <string name="title_activity_route">RouteActivity</string>
+    <string name="title_activity_route_config">RouteConfigActivity</string>
+    <string name="title_activity_route_list">RouteListActivity</string>
+    <string name="title_activity_route_detail">RouteDetailActivity</string>
+
+</resources>

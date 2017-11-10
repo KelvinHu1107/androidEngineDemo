@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:background="@drawable/turnpanel_next_bg_tile" >
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_height="30dp"
+        android:layout_width="match_parent" >
+        
+        <ImageView android:id="@+id/imageViewGuideTurn"
+        	android:layout_height="30dp"
+        	android:layout_width="30dp"
+        	android:background="@drawable/turnpanel_sign_01" />
+        
+        <TextView android:id="@+id/textViewTurnDistance"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:paddingLeft="10dp"
+            android:text="240m"
+            android:gravity="left|center_vertical"
+            android:textSize="25dp"
+            android:textColor="#80deea" />
+        
+    </LinearLayout>
+    
+    <TextView android:id="@+id/textViewGuideCurrentRoad"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="road name"
+        android:gravity="left|center_vertical"
+        android:textSize="17dp"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

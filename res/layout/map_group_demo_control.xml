@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="80dp" >
+
+    <RelativeLayout 
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/navi_sim_bg" >
+        
+    	<SeekBar
+        	android:id="@+id/seekBarDemo"
+        	android:layout_width="160dp"
+        	android:layout_height="40dp"
+        	
+        	android:layout_marginLeft="20dp"
+        	android:layout_marginRight="20dp" />
+    	
+    	<ImageButton
+        	android:id="@+id/imageButtonDemoSlow"
+        	android:layout_width="40dp"
+        	android:layout_height="40dp"
+        	android:layout_alignParentLeft="true"
+        	android:layout_alignParentBottom="true"
+        	android:background="@drawable/xml_btn_demo_minus"
+        	android:onClick="onClickDemoButton"
+        	android:tag="0" />
+
+    	<ImageButton
+        	android:id="@+id/imageButtonDemoFast"
+        	android:layout_width="40dp"
+        	android:layout_height="40dp"
+       		android:layout_alignParentBottom="true"
+        	android:layout_toRightOf="@id/imageButtonDemoSlow"
+        	android:background="@drawable/xml_btn_demo_plus"
+        	android:onClick="onClickDemoButton"
+        	android:tag="1" />
+
+    	<ImageButton
+        	android:id="@+id/imageButtonDemoPause"
+        	android:layout_width="40dp"
+        	android:layout_height="40dp"
+        	android:layout_alignParentBottom="true"
+        	android:layout_toRightOf="@id/imageButtonDemoFast"
+        	android:background="@drawable/xml_btn_demo_pause"
+        	android:onClick="onClickDemoButton"
+        	android:tag="2"  />
+
+    	<ImageButton
+        	android:id="@+id/imageButtonDemoStop"
+        	android:layout_width="40dp"
+        	android:layout_height="40dp"
+        	android:layout_alignParentBottom="true"
+        	android:layout_toRightOf="@id/imageButtonDemoPause"
+        	android:background="@drawable/xml_btn_demo_stop"
+        	android:onClick="onClickDemoButton"
+        	android:tag="3"  />
+    </RelativeLayout>
+    
+    <ImageButton
+       	android:id="@+id/imageButtonHideDemo"
+       	android:layout_width="40dp"
+       	android:layout_height="80dp"
+       	android:layout_alignParentTop="true"
+       	android:layout_alignParentRight="true"
+      	android:background="@drawable/xml_btn_demo_hide"
+       	android:onClick="onClickDemoButton"
+       	android:tag="4" />
+    
+</RelativeLayout>

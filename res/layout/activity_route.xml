@@ -1,0 +1,131 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RouteActivity" >
+
+    <RelativeLayout
+        android:id="@+id/groupRouteTitle"
+        style="@style/layout_title"
+        android:layout_alignParentTop="true" >
+
+        <Button
+            android:id="@+id/btnBack"
+            style="@style/btn_back" />
+
+        <TextView
+            android:id="@+id/txtPNSTitle"
+            style="@style/txt_title"
+            android:text="RouteView" />
+
+        <Button
+            android:id="@+id/buttonRouteList"
+            style="@style/btn_home"
+            android:text="List"
+            android:textColor="#ffffffff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout 
+        android:id="@+id/grouptRouteButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/groupRouteTitle"
+        android:orientation="horizontal" >
+    
+        <Button 
+            android:id="@+id/buttonRoute1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Route1"
+            android:tag="0"
+            android:onClick="onClickRoute" />
+        
+        <Button 
+            android:id="@+id/buttonRoute2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Route2"
+            android:visibility="gone"
+            android:tag="1"
+            android:onClick="onClickRoute" />
+        
+        <Button 
+            android:id="@+id/buttonRoute3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Route3"
+            android:visibility="gone"
+            android:tag="2"
+            android:onClick="onClickRoute" />
+        
+        <Button 
+            android:id="@+id/buttonRouteAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"/>
+        
+    </LinearLayout>
+    
+    <RelativeLayout 
+        android:id="@+id/groupRouteInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+               
+        <TextView 
+            android:id="@+id/textViewTotalDistance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="xxx.x km"
+            android:textSize="20sp" />
+        
+        <TextView 
+            android:id="@+id/textViewTotalTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/textViewTotalDistance"
+            android:layout_marginLeft="10dp"
+            android:text="ETD: 2:10"
+            android:textSize="20sp" />
+        
+        <TextView
+            android:id="@+id/textViewTotalCost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/textViewTotalDistance"
+            android:text="Toll: NT$ 150"
+            android:textSize="20sp" />
+        
+        <Button 
+            android:id="@+id/buttonRouteGuide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:text="Guide" />
+        
+        <Button 
+            android:id="@+id/buttonRouteDemo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@id/buttonRouteGuide"
+            android:text="Demo" />
+        
+    </RelativeLayout>
+    
+    <SurfaceView
+        android:id="@+id/surfaceViewRoute"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/grouptRouteButtons"
+        android:layout_above="@id/groupRouteInfo" />
+    
+    
+</RelativeLayout>

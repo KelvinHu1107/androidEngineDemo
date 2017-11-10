@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="speed_panel_width">150dp</dimen>
+    <dimen name="speed_panel_height">80dp</dimen>
+    <dimen name="compass_size">70dp</dimen>
+    <dimen name="map_move_icon_size">50dp</dimen>
+    <dimen name="remain_dist_group_width">100dp</dimen>
+    <dimen name="remain_dist_group_height">50dp</dimen>
+    <dimen name="bottom_bar_height">50dp</dimen>
+    <dimen name="speed_digit_width">22dp</dimen>
+    <dimen name="speed_digit_height">35dp</dimen>
+    <dimen name="speed_unit_height">15dp</dimen>
+    <dimen name="speed_unit_text_height">11dp</dimen>
+    <dimen name="entry_info_size">200dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>

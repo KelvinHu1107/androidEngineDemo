@@ -1,0 +1,196 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ExSettingActivity" >
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+            <Button 
+                android:id="@+id/buttonMapColorSet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Map Color Mode" />
+            
+            <Button 
+                android:id="@+id/buttonInformationTypeSet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Remain Info Type"/>
+            
+            <Button
+                android:id="@+id/buttonViaFirst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Via First" />
+            
+            <Button
+                android:id="@+id/buttonJunctionViewPic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Junction View : Picture"/>
+            
+            <Button
+                android:id="@+id/buttonJunctionViewRing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Junction View : Ring" />
+
+            <Button
+                android:id="@+id/buttonJunctionDrawPic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Junction Draw : Picture"/>
+    
+            <Button
+                android:id="@+id/buttonJunctionDrawRing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Junction Drqw : Ring" />
+    
+            <Button
+                android:id="@+id/buttonTMCPic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TMC : Picture" />
+    
+            <Button
+                android:id="@+id/buttonTMCRing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TMC : Ring" />
+
+            <Button
+                android:id="@+id/buttonSpeedCameraIcon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Speed Camera : Icon" />
+
+            <Button
+                android:id="@+id/buttonSpeedCameraRing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Speed Camera : Ring" />
+                
+            <Button
+                android:id="@+id/buttonSpeedLimitIcon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Speed Limit : Icon"/>
+    
+            <Button
+                android:id="@+id/buttonSpeedLimitRing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Speed Limit : Ring" />
+    
+            <Button
+                android:id="@+id/buttonSpeedLimitRule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Speed Limit : Rule"/>
+    
+            <Button
+                android:id="@+id/buttonSpeedWarning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Speed : Warning" />
+            
+            <Button
+                android:id="@+id/buttonSignboard"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="Signboard"/>
+		    
+		    <Button 
+		        android:id="@+id/buttonLaneGuide"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="Lane Guide" />
+		    
+		    <Button 
+		        android:id="@+id/buttonHighway"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="Highway Info" />
+		    
+		    <Button 
+		        android:id="@+id/buttonCCTVvideo"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="CCTV : Video" />
+		    
+		    <Button 
+		        android:id="@+id/buttonCCTVring"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="CCTV : Ring" />
+		    
+		    <Button 
+		        android:id="@+id/buttonDirectionGuide"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="Direction Guide" />
+		    
+		     <Button 
+		        android:id="@+id/buttonLanguage"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="Language" />
+		    
+		    <Button 
+		        android:id="@+id/buttonVoiceWhenCall"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="Voice When Call" />
+		    
+		    <Button 
+		        android:id="@+id/buttonNaviBackground"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="Navi in Background" />
+		        
+		     <Button 
+		        android:id="@+id/buttonCityModel"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="CityModel" />
+		
+		    <Button
+		        android:id="@+id/buttonLandmark"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="Landmark" />
+		    
+		    <Button
+                android:id="@+id/buttonTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Map Theme" />
+		    
+		    <Button
+                android:id="@+id/buttonTTSVolumn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TTS Volumn" />
+		    
+		    <Button
+		        android:id="@+id/buttonBackToMap"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="Back to Map" />
+    
+        </LinearLayout>
+            
+        
+    </ScrollView>
+
+</LinearLayout>

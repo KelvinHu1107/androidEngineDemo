@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+         style="@style/layout_title"
+         android:layout_width="match_parent" >
+
+         <Button style="@style/btn_back" android:id="@+id/btnBack" />
+
+         <TextView
+             android:id="@+id/txtPNSTitle"
+             style="@style/txt_title"
+             android:text="MainMenu" />
+
+         <Button
+             android:id="@+id/btnMap"
+             style="@style/btn_home"
+             android:text="Map" />
+
+    </RelativeLayout>
+
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <Button
+            android:id="@+id/Button01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search" />
+        
+        <Button
+            android:id="@+id/Button02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Intersection" />
+        
+        <Button
+            android:id="@+id/Button03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone Number" />
+        
+        <Button
+            android:id="@+id/Button04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kind" />
+        
+        <Button
+            android:id="@+id/Button05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Near" />
+        
+        <Button
+            android:id="@+id/Button06"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UBCode" />
+        
+        <Button
+            android:id="@+id/Button07"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Car set test" />
+        
+        <Button
+            android:id="@+id/Button08"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set Voice Language" />
+        
+        <Button
+            android:id="@+id/Button09"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Setting" />
+        
+        <Button
+            android:id="@+id/Button10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="POI Icon / POI map on-off test" />
+        
+        <Button
+                android:id="@+id/Button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Highway Facility List" />
+        
+        </LinearLayout>
+        
+    </ScrollView>
+
+</LinearLayout>

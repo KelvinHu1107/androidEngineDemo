@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PoiIconTest" >
+
+   
+
+    <RelativeLayout
+         style="@style/layout_title"
+         android:layout_width="match_parent" >
+
+            <Button style="@style/btn_back" android:id="@+id/btnBack" />
+
+            <TextView
+                android:id="@+id/txtPNSTitle"
+                style="@style/txt_title"
+                android:text="MainMenu" />
+
+            <Button
+                android:id="@+id/btnMap"
+                style="@style/btn_home"
+                android:text="Map" />
+    </RelativeLayout>
+    
+     <EditText
+         android:id="@+id/editTextName"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+     <Button
+         android:id="@+id/buttonSearch"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Search" />
+
+     <ImageView
+         android:id="@+id/imageViewIcon"
+         android:layout_width="100dp"
+         android:layout_height="100dp"
+         android:background="#ffff0000" />
+     
+     <TextView
+         android:id="@+id/textViewPoiOnOff"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="30dp"
+         android:text="Setting POI showing ON/OFF" />
+     
+     <EditText 
+         android:id="@+id/editTextPoiCategory"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:hint="input category code (digits only)"
+         />
+     
+     <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+        
+         <Button 
+             android:id="@+id/buttonPoiCategoryOff"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:text="OFF"/>
+         
+         <Button
+             android:id="@+id/buttonPoiCategoryOn"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:text="ON" />
+     </LinearLayout>
+
+</LinearLayout>

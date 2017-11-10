@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RouteConfigActivity" >
+    
+    <RelativeLayout
+        android:id="@+id/groupRouteTitle"
+        style="@style/layout_title"
+        android:layout_alignParentTop="true" >
+
+        <Button
+            android:id="@+id/btnBack"
+            style="@style/btn_back" />
+
+        <TextView
+            android:id="@+id/txtPNSTitle"
+            style="@style/txt_title"
+            android:text="New Route" />
+
+        <Button
+            android:id="@+id/buttonNewRoute"
+            style="@style/btn_home"
+            android:text="Add"
+            android:textColor="#ffffffff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    
+    <Button
+        android:id="@+id/buttonRouteCar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Car" />
+    
+    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#101010ff"
+                android:text="Route Config"
+                android:textSize="25sp"
+                android:paddingLeft="20dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            <RadioGroup
+                android:id="@+id/radioGroupRouteConfig"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical" >
+                
+                <RadioButton 
+                    android:id="@+id/radioOptimalRoute"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="optimal"/>
+                
+                <RadioButton 
+                    android:id="@+id/radioShortestRoute"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Shortest"/>
+                
+                <RadioButton 
+                    android:id="@+id/radioNational1Route"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="National 1"/>
+                
+                <RadioButton 
+                    android:id="@+id/radioNational3Route"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="National 3"/>
+                
+                <RadioButton 
+                    android:id="@+id/radioAvoidHighway"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Avoid highway"/>
+                
+            </RadioGroup>
+            
+            <Switch
+                    android:id="@+id/switchOnlyFreeRoad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="20dp"
+                    android:text="Free Road Only" />                
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

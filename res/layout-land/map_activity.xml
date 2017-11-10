@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <SurfaceView
+        android:id="@+id/mainMapView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" />
+
+    <ImageView
+        android:id="@+id/imgUnderPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:visibility="gone" 
+        android:scaleType="fitXY"
+        android:background="#FFFFFFFF"
+        android:clickable="true"/>
+    
+    <include
+        android:id="@+id/groupBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        layout="@layout/map_group_bottom_landscape" />
+
+    <include
+        android:id="@+id/groupDemoControl"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="60dp"
+        layout="@layout/map_group_demo_control" />
+
+    <ImageButton
+        android:id="@+id/imageButtonShowDemo"
+        android:layout_width="40dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/xml_btn_demo_show"
+        android:onClick="onClickDemoButton"
+        android:tag="5" />
+
+    <include
+        android:id="@+id/groupTop"
+        android:layout_width="@dimen/entry_info_size"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/map_guide_top_landscape" />
+
+    <ImageView
+        android:id="@+id/imageViewEntryInfo"
+        android:layout_width="@dimen/entry_info_size"
+        android:layout_height="@dimen/entry_info_size"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/groupTop"
+        android:background="#000000" />
+
+    <ImageView
+        android:id="@+id/imageViewExtInfo"
+        android:layout_width="@dimen/entry_info_size"
+        android:layout_height="@dimen/entry_info_size"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/groupTop"
+        android:background="#000000" />
+
+    <include
+        android:layout_width="@dimen/entry_info_size"
+        android:layout_height="200dp"
+        android:layout_alignLeft="@+id/imageViewEntryInfo"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/groupTop"
+        layout="@layout/tbt_base" />
+
+    <include
+        android:id="@+id/layerMove"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/map_move" />
+
+
+    <com.kingwaytek.naviking3d.app.VerticalProgressBar
+        android:id="@+id/progressNearCross"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@id/imageViewEntryInfo"
+        android:layout_alignLeft="@id/imageViewEntryInfo"
+        android:layout_alignTop="@id/imageViewEntryInfo"
+        android:layout_margin="20dp"
+        android:alpha="0.7"
+        android:progressDrawable="@drawable/progress_bar" />
+
+    <com.kingwaytek.naviking3d.app.VerticalProgressBar
+        android:id="@+id/progressNearCross2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@id/imageViewExtInfo"
+        android:layout_alignLeft="@id/imageViewExtInfo"
+        android:layout_alignTop="@id/imageViewExtInfo"
+        android:layout_margin="20dp"
+        android:alpha="0.7"
+        android:progressDrawable="@drawable/progress_bar" />
+
+    <TextView
+        android:id="@+id/txtSignPost1"
+        android:layout_width="80dip"
+        android:layout_height="30dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="10dip"
+        android:background="#FF008020"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="TextView"
+        android:textColor="#FFFFFFFF" />
+
+    <TextView
+        android:id="@+id/txtSignPost2"
+        android:layout_width="80dip"
+        android:layout_height="30dip"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="10dip"
+        android:layout_toRightOf="@+id/txtSignPost1"
+        android:background="#FF008020"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="TextView"
+        android:textColor="#FFFFFFFF" />
+    
+        <TextView
+        android:id="@+id/txtSignPost3"
+        android:layout_width="80dip"
+        android:layout_height="30dip"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="10dip"
+        android:layout_toRightOf="@+id/txtSignPost2"
+        android:background="#FF008020"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="TextView"
+        android:textColor="#FFFFFFFF" />
+        
+            <TextView
+        android:id="@+id/txtSignPost4"
+        android:layout_width="80dip"
+        android:layout_height="30dip"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="10dip"
+        android:layout_toRightOf="@+id/txtSignPost3"
+        android:background="#FF008020"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="TextView"
+        android:textColor="#FFFFFFFF" />
+
+            <LinearLayout
+                android:id="@+id/layCam"
+                android:layout_width="61dp"
+                android:layout_height="84dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/camera_bg"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/txtCamDist"
+                    android:layout_width="61dp"
+                    android:layout_height="28dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="1234"
+                    android:textColor="#FFFFFFFF" />
+
+                <ImageView
+                    android:id="@+id/imgCam"
+                    android:layout_width="61dp"
+                    android:layout_height="56dp"
+                    android:paddingBottom="4dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:src="@drawable/camera_type_fixed"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/txtCamSpeed"
+                    android:layout_width="61dp"
+                    android:layout_height="56dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:paddingBottom="4dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:text="100"
+                    android:textSize="27sp" />
+                
+            </LinearLayout>
+
+</RelativeLayout>

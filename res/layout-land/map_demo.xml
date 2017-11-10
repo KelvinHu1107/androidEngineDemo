@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include layout="@layout/map_group_bottom_landscape"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <include layout="@layout/map_group_demo_control"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="60dp" />
+    
+    <include layout="@layout/map_guide_top_landscape"
+        android:id="@+id/groupTop"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="@dimen/entry_info_size"
+        android:layout_height="50dp" />
+    
+    <ImageView 
+        android:id="@+id/imageViewEntryInfo"
+        android:layout_width="@dimen/entry_info_size"
+        android:layout_height="@dimen/entry_info_size"
+        android:layout_alignParentRight="true"
+        android:background="#000000"
+        android:layout_below="@id/groupTop" />
+    
+     <ImageView 
+        android:id="@+id/imageViewExtInfo"
+        android:layout_width="@dimen/entry_info_size"
+        android:layout_height="@dimen/entry_info_size"
+        android:layout_alignParentRight="true"
+        android:background="#000000"
+        android:layout_below="@id/groupTop" />
+
+<include
+    android:layout_width="200dp"
+    android:layout_height="140dp"
+    android:layout_alignLeft="@+id/imageViewEntryInfo"
+    android:layout_alignParentRight="true"
+    android:layout_below="@+id/groupTop"
+    layout="@layout/tbt_base" />
+
+</RelativeLayout>

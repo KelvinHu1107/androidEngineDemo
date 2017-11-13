@@ -1,4 +1,4 @@
-#Fri Nov 10 14:01:00 CST 2017
-base.0=C\:\\Users\\kelvinhu1107\\Desktop\\Projects\\androidEngineDemo\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+#Mon Nov 13 11:46:27 CST 2017
+base.0=C\:\\Users\\kelvinhu1107\\Desktop\\Projects\\androidEngineDemo\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 renamed.0=classes.dex
-file.0=C\:\\Users\\kelvinhu1107\\Desktop\\Projects\\androidEngineDemo\\build\\intermediates\\transforms\\dexMerger\\debug\\1\\classes.dex
+file.0=C\:\\Users\\kelvinhu1107\\Desktop\\Projects\\androidEngineDemo\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex

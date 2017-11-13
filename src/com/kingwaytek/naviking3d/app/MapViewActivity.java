@@ -65,8 +65,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 import com.kingwaytek.naviking3d.app.RouteListActivity.RouteItem;
 import com.kingwaytek.naviking3d.app.dlg.DLG_MAIN_MENU;
+import com.kingwaytek.naviking3d.app.utility.BaseFloatingWindowActivity;
 
-public class MapViewActivity extends Activity implements SurfaceHolder.Callback {
+public class MapViewActivity extends BaseFloatingWindowActivity implements SurfaceHolder.Callback {
 	
 	private static Timer mTimer = null;
 	private static boolean mIsNowTimerProc = false;
@@ -93,6 +94,7 @@ public class MapViewActivity extends Activity implements SurfaceHolder.Callback 
 	VerticalProgressBar mProgressNearCross2 = null;
 	Button mButtonNorthup = null;
 	Button mButtonHeadup = null;
+	Button mButtonSpeedCamera = null;
 	ImageView mViewCompass = null;
 	ImageView mViewCompassMove = null;
 	Button mButtonPickGo = null;
@@ -185,7 +187,37 @@ public class MapViewActivity extends Activity implements SurfaceHolder.Callback 
 
 	
 	private static boolean mTbtToggle = true;
-	
+
+	@Override
+	public int getLayoutResId() {
+		return R.id.mainMapView;
+	}
+
+	@Override
+	public Drawable getSpeedLimitResId() {
+		return null;
+	}
+
+	@Override
+	public Drawable getCurrentSpeedResId() {
+		return null;
+	}
+
+	@Override
+	public Drawable getEventWindowResId() {
+		return null;
+	}
+
+	@Override
+	public Drawable getCloseBtnResId() {
+		return null;
+	}
+
+	@Override
+	public int getActivateBtnId() {
+		return R.id.buttonSpeedCamera;
+	}
+
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		// jolee - prevent re-route by GPS in route plan dialog 
@@ -217,6 +249,7 @@ public class MapViewActivity extends Activity implements SurfaceHolder.Callback 
 		mProgressNearCross2.setVisibility(View.GONE);
 		mButtonNorthup = (Button)findViewById(R.id.buttonNorthUp);
 		mButtonHeadup = (Button)findViewById(R.id.buttonHeadUp);
+		mButtonSpeedCamera = (Button)findViewById(R.id.buttonSpeedCamera);
 		mViewCompass = (ImageView)findViewById(R.id.imageViewCompass);
 		mViewCompassMove = (ImageView)findViewById(R.id.imageViewCompassMove);
 		mButtonPickGo = (Button)findViewById(R.id.buttonPickDetail);
@@ -264,7 +297,8 @@ public class MapViewActivity extends Activity implements SurfaceHolder.Callback 
 		mViewExtInfo.setBackgroundDrawable(drawableExt);
 		
 		mViewUnderPassImg = Bitmap.createBitmap(100, 100, Bitmap.Config.ARGB_8888); // init with dummy value
-	
+		findViews(mButtonSpeedCamera);
+
 		mViewUnderPass.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
@@ -797,7 +831,7 @@ public class MapViewActivity extends Activity implements SurfaceHolder.Callback 
 		if (err == 0)
 			msg = "TTS engine OK.";
 		if (msg != null) {
-			Toast.makeText(this, msg, 1).show();
+			//Toast.makeText(this, msg, 1).show();
 		}
 	}
 
@@ -1005,7 +1039,7 @@ public class MapViewActivity extends Activity implements SurfaceHolder.Callback 
 	
 	public static void UIArriveTarget(int val)
 	{
-		Toast.makeText(mThis, "End Touch down", 5).show();
+		//Toast.makeText(mThis, "End Touch down", 5).show();
 	}
 	
 	private int timerCount = 0;
@@ -1044,7 +1078,7 @@ public class MapViewActivity extends Activity implements SurfaceHolder.Callback 
 		
 		if (citus_api.RG_IsEndTouchDown()) // it shoud be just 1 time true, and next reset 
 		{
-			Toast.makeText(this, "End Touch down", 5).show();
+			//Toast.makeText(this, "End Touch down", 5).show();
 		}
 		
 		mIsCarCenter = citus_api.SYS_IsCarToCenter(); 

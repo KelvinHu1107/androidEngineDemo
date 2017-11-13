@@ -42,17 +42,21 @@ import android.widget.TextView;
 public class citus_api
 {
 	static {
-		System.loadLibrary("curl");
-		System.loadLibrary("hci_sys");
-		System.loadLibrary("hci_sys_jni");
-		System.loadLibrary("hci_tts");
-		System.loadLibrary("hci_tts_jni");
-		System.loadLibrary("hci_tts_local_v6_synth");
-		System.loadLibrary("hci_tts_local_v6-v5_synth");
-		System.loadLibrary("jtopus");
-		System.loadLibrary("jtspeex");
-		System.loadLibrary("jtz");
-		System.loadLibrary("Rousen");
+		try {
+			System.loadLibrary("curl");
+			System.loadLibrary("hci_sys");
+			System.loadLibrary("hci_sys_jni");
+			System.loadLibrary("hci_tts");
+			System.loadLibrary("hci_tts_jni");
+			System.loadLibrary("hci_tts_local_v6_synth");
+			System.loadLibrary("hci_tts_local_v6-v5_synth");
+			System.loadLibrary("jtopus");
+			System.loadLibrary("jtspeex");
+			System.loadLibrary("jtz");
+			System.loadLibrary("Rousen");
+		}catch(UnsatisfiedLinkError e){
+			e.printStackTrace();
+		}
 	}
 	
 	public static int TRUE = 1;

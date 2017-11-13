@@ -6,22 +6,22 @@
     density="xxxhdpi"
     format="10"
     plugin-version="3.0.0"
-    timestamp="1510293647320"
+    timestamp="1510544769864"
     token="4066111330473955814"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="2049" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="1283" />
+        duration="1693" />
     <task
         name="verifier"
-        duration="1245" />
+        duration="1579" />
 
     <artifact
         location="C:\Users\kelvinhu1107\Desktop\Projects\androidEngineDemo\build\intermediates\split-apk\debug\dep\dependencies.apk"
@@ -62,7 +62,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1510293647320"
+        timestamp="1510544769864"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\kelvinhu1107\Desktop\Projects\androidEngineDemo\build\intermediates\split-apk\debug\dep\dependencies.apk"

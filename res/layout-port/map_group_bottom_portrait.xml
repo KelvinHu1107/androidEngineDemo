@@ -61,7 +61,17 @@
         android:layout_margin="5dp"
         android:text="DriveView"
         android:padding="3dp" />
-    
+
+    <Button
+        android:id="@+id/buttonSpeedCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/buttonStandardView"
+        android:layout_above="@id/groupCompass"
+        android:layout_margin="5dp"
+        android:text="SpeedCamera"
+        android:padding="3dp" />
+
     <Button 
         android:id="@+id/buttonStandardView"
         android:layout_width="wrap_content"

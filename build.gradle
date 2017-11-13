@@ -48,6 +48,16 @@ android {
         debug.setRoot('build-types/debug')
         release.setRoot('build-types/release')
     }
+
+    signingConfigs {
+        debug {
+            keyAlias 'AndroidDebugKey'
+            keyPassword 'android'
+            storeFile file('/debug.keystore')
+            storePassword 'android'
+        }
+    }
+
 }
 
 repositories {

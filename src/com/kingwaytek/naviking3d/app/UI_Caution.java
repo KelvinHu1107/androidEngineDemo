@@ -72,7 +72,9 @@ public class UI_Caution extends Activity {
         ShowSplash();
         
         TextView viewVersion = (TextView)findViewById(R.id.textViewEngineVersion);
-        viewVersion.setText(String.format("engine version = (%s)", citus_api.SYS_GetEngineVersion()));
+		viewVersion.setText(String.format("engine version = (%s)", citus_api.SYS_GetEngineVersion()));
+		Log.v("kelvinkelvin", viewVersion.getText().toString());
+
         
         Button btnAccept = (Button)findViewById(R.id.btnAccept);
         btnAccept.setOnClickListener(new OnClickListener() {
@@ -225,7 +227,9 @@ public class UI_Caution extends Activity {
 						int deviceHeight =displayMetrics.heightPixels;
     					 
 						listener = getCitusListner();
+
     					int ret = citus_api.UI_InitializeAll(UI_Caution.this, listener, deviceWidth, deviceHeight);
+
     					
     					if (ret != 0)
     					{
@@ -444,8 +448,9 @@ public class UI_Caution extends Activity {
 		File file = new File(path);
 		if(file.exists()){
 			m_RousenSavePath = path ;
+			Log.v("kelvinkelvin", "file  ="+path);
 			return m_RousenSavePath ;
-		}		
+		}
 		
 		path = "/mnt/sdcard/LocalKingMapN5" ;
 		file = new File(path);
@@ -453,7 +458,7 @@ public class UI_Caution extends Activity {
 			m_RousenSavePath = path ;
 			return m_RousenSavePath ;
 		}		
-        return null;	
+        return null;
      }
     
 	public boolean GPS_Connect()

@@ -143,11 +143,6 @@ public class MapViewActivity extends BaseFloatingWindowActivity implements Surfa
 	ArrayList<ROUTE_ITEM> storage_RouteList = null;
 	ArrayList<ROUTE_ITEM> storage_HiwayList = null;
 	
-	
-	
-	
-	
-	
 	TextView mSignPostView[] = null;
 	
 	LinearLayout mLayCam = null;
@@ -196,15 +191,6 @@ public class MapViewActivity extends BaseFloatingWindowActivity implements Surfa
 	}
 
 	@Override
-	public View getSpeedLimitResId() {
-		LayoutInflater inflater = LayoutInflater.from(this);
-		View view = inflater.inflate(R.layout.map_group_speed_compass, null);
-		ImageView imageView = (ImageView) view.findViewById(R.id.imgUnderPass);
-
-		return imageView;
-	}
-
-	@Override
 	public Drawable getCurrentSpeedResId() {
 		return null;
 	}
@@ -217,18 +203,6 @@ public class MapViewActivity extends BaseFloatingWindowActivity implements Surfa
 	@Override
 	public Drawable getCloseBtnResId() {
 		return null;
-	}
-
-	@Override
-	public View getSpeedRes() {
-		LayoutInflater inflater = LayoutInflater.from(this);
-		View view = inflater.inflate(R.layout.map_group_speed_compass, null);
-		ImageView imageView100 = (ImageView) view.findViewById(R.id.imageViewDigit1);
-		ImageView imageView10 = (ImageView) view.findViewById(R.id.imageViewDigit2);
-		ImageView imageView1 = (ImageView) view.findViewById(R.id.imageViewDigit3);
-		setSpeedDigit(imageView100, imageView10, imageView1);
-		view.refreshDrawableState();
-		return view;
 	}
 
 	@Override
@@ -1114,7 +1088,7 @@ public class MapViewActivity extends BaseFloatingWindowActivity implements Surfa
 				{
 					Drawable drawableEntry = new BitmapDrawable(getResources(), mViewUnderPassImg);
 					mViewUnderPass.setBackgroundDrawable(drawableEntry);
-					getSpeedLimitResId();
+					setSpeedDigit();
 					//mViewUnderPass.setVisibility(View.VISIBLE);
 				}
 				else if (ret == 2) // keep use
@@ -1155,43 +1129,43 @@ public class MapViewActivity extends BaseFloatingWindowActivity implements Surfa
 				
 				if (cam_dist >= 1000) {
 					mCamDist.setText(String.format("%.1fkm", (float) cam_dist / 1000.f));
-					setmCamDist(String.format("%.1fkm", (float) cam_dist / 1000.f)+" m");
+					setCamDist(String.format("%.1fkm", (float) cam_dist / 1000.f)+" m");
 				}
 				else {
 					mCamDist.setText("" + cam_dist);
-					setmCamDist("" + cam_dist+" m");
+					setCamDist("" + cam_dist+" m");
 				}
 				
 				mCamSpeed.setText(""+cam_limit);
-				setmCamSpeed(" "+cam_limit+ " /km/h");
+				setCamSpeed(" "+cam_limit+ " /km/h");
 				
 				switch (cam_type) {
 				case citus_api.CPF_TYPE_MOVING: {
 					// imgCameraType.image = [UIImage
 					// imageNamed:@"camera_type_cop.png"];
 					mCamImage.setImageResource(R.drawable.camera_type_cop);
-					setmCamImage(R.drawable.camera_type_cop);
+					setCamImage(R.drawable.camera_type_cop);
 				}
 					break;
 				case citus_api.CPF_TYPE_FIXED: {
 					// imgCameraType.image = [UIImage
 					// imageNamed:@"camera_type_fixed.png"];
 					mCamImage.setImageResource(R.drawable.camera_type_fixed);
-					setmCamImage(R.drawable.camera_type_fixed);
+					setCamImage(R.drawable.camera_type_fixed);
 				}
 					break;
 				case citus_api.CPF_TYPE_SIGN: {
 					// imgCameraType.image = [UIImage
 					// imageNamed:@"camera_type_crossline.png"];
 					mCamImage.setImageResource(R.drawable.camera_type_crossline);
-					setmCamImage(R.drawable.camera_type_crossline);
+					setCamImage(R.drawable.camera_type_crossline);
 					break;
 				}
 				case citus_api.KWT_CPF_TYPE_DRV_DIST: {
 					// imgCameraType.image = [UIImage
 					// imageNamed:@"camera_type_tooclose.png"];
 					mCamImage.setImageResource(R.drawable.camera_type_tooclose);
-					setmCamImage(R.drawable.camera_type_tooclose);
+					setCamImage(R.drawable.camera_type_tooclose);
 					break;
 				}
 
@@ -1199,7 +1173,7 @@ public class MapViewActivity extends BaseFloatingWindowActivity implements Surfa
 					// imgCameraType.image = [UIImage
 					// imageNamed:@"camera_type_cop.png"];
 					mCamImage.setImageResource(R.drawable.camera_type_cop);
-					setmCamImage(R.drawable.camera_type_cop);
+					setCamImage(R.drawable.camera_type_cop);
 				}
 					break;
 				}
@@ -1703,7 +1677,7 @@ public class MapViewActivity extends BaseFloatingWindowActivity implements Surfa
 			else
 				currentRoadView.setText(roadName+"["+String.format("%.1f", mileage) +"]");
 
-			getSpeedRes();
+			setSpeedDigit();
 			
 			// set SignPost
 			mSignPostView[0].setVisibility(View.GONE);
@@ -2051,7 +2025,7 @@ public class MapViewActivity extends BaseFloatingWindowActivity implements Surfa
 		 oldAngle = angle;
 	}
 	
-	private void setSpeedDigit(ImageView imageView1, ImageView imageView2, ImageView imageView3)
+	private void setSpeedDigit()
 	{
 		int cameraDistance = ApiProxy.getInteger(ApiProxy.CPF_CAMERA_DISTANCE, 0);
 //		int cameraType = ApiProxy.getInteger(ApiProxy.CPF_CAMERA_TYPE, 0);
@@ -2087,22 +2061,15 @@ public class MapViewActivity extends BaseFloatingWindowActivity implements Surfa
 		
 		int idResource = getSpeedDigitResourceId(digit100, alert, digit100 == 0);
 		digitView100.setBackgroundResource(idResource);
-		if(imageView1 != null){
-			imageView1.setBackgroundResource(idResource);
-		}
+		setDigRes100(idResource);
 		
 		idResource = getSpeedDigitResourceId(digit10, alert, digit100 == 0 && digit10 == 0);
 		digitView10.setBackgroundResource(idResource);
-		if(imageView2 != null){
-			imageView2.setBackgroundResource(idResource);
-		}
+		setDigRes10(idResource);
 		
 		idResource = getSpeedDigitResourceId(digit1, alert, false);
 		digitView1.setBackgroundResource(idResource);
-
-		if(imageView3 != null){
-			imageView3.setBackgroundResource(idResource);
-		}
+		setDigRes1(idResource);
 
 
 	}

@@ -1,29 +1,18 @@
 package com.kingwaytek.naviking3d.app.utility;
 
-import android.Manifest;
+
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
-import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Context;
-import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.PixelFormat;
-import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
-import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
-import android.provider.Settings;
-import android.support.v4.app.ActivityCompat;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.MotionEvent;
 import android.view.View;
@@ -32,24 +21,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
-
-import com.kingwaytek.naviking3d.app.R;
-import com.kingwaytek.naviking3d.app.UI_Caution;
-
-import java.util.ArrayList;
 import java.util.Timer;
-import java.util.TimerTask;
 
-import kr.co.citus.engine.ApiProxy;
-import kr.co.citus.engine.citus_api;
-import kr.co.citus.engine.struct.IPOINT;
-import kr.co.citus.engine.struct.RG_GUIDE_INFO;
-import kr.co.citus.engine.struct.RG_REMAIN_INFO;
-import kr.co.citus.engine.struct.ROUTE_ITEM;
-import kr.co.citus.engine.struct.SIGNPOST_GUIDEINFO;
-import kr.co.citus.engine.wrap.WrapInt;
-import kr.co.citus.engine.wrap.WrapString;
 
 /**
  * Created by kelvinhu1107 on 2017/11/13.
@@ -60,8 +33,6 @@ public abstract class BaseFloatingWindowActivity extends Activity {
     final static String TAG = "BaseFloatingWindow";
     final static int OVERLAY_PERMISSION_REQ_CODE = 99;
     final static int REQUEST_CODE_FINE_GPS = 100;
-    private static boolean mIsNowTimerProc;
-    private static Timer mTimer = null;
     private WindowManager mWindowManager;
     private LinearLayout currentSpeedLayout, eventLayout;
     private Button closeBtn, activateBtn;
@@ -71,12 +42,9 @@ public abstract class BaseFloatingWindowActivity extends Activity {
     LinearLayout mLayCam = null;
     TextView mCamDist = null;
     TextView mCamSpeed = null;
-    ImageView mCamImage = null;
-    private static int timerCount = 0;
+    ImageView mCamImage = null, mDigitalImage100, mDigitalImage10, mDigitalImage1;
 
     public abstract int getLayoutResId();
-
-    public abstract View getSpeedLimitResId();
 
     public abstract Drawable getCurrentSpeedResId();
 
@@ -84,11 +52,9 @@ public abstract class BaseFloatingWindowActivity extends Activity {
 
     public abstract Drawable getCloseBtnResId();
 
-    public abstract View getSpeedRes();
-
     public abstract int getActivateBtnId();
 
-    public void setmCamSpeed(String string){
+    public void setCamSpeed(String string){
         if(string != null) {
             mCamSpeed.setText(string);
         }
@@ -97,12 +63,12 @@ public abstract class BaseFloatingWindowActivity extends Activity {
         }
     }
 
-    public void setmCamImage(int drawable){
+    public void setCamImage(int drawable){
 
         mCamImage.setImageResource(drawable);
     }
 
-    public void setmCamDist(String string){
+    public void setCamDist(String string){
         if(string != null) {
             mCamDist.setText(string);
         }
@@ -143,6 +109,23 @@ public abstract class BaseFloatingWindowActivity extends Activity {
             mCamSpeed.setVisibility(View.VISIBLE);
     }
 
+    public void setDigRes100(int res){
+        if(mDigitalImage100!=null){
+            mDigitalImage100.setBackgroundResource(res);
+        }
+    }
+
+    public void setDigRes10(int res){
+        if(mDigitalImage10!=null){
+            mDigitalImage10.setBackgroundResource(res);
+        }
+    }
+
+    public void setDigRes1(int res){
+        if(mDigitalImage1!=null){
+            mDigitalImage1.setBackgroundResource(res);
+        }
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -326,7 +309,7 @@ public abstract class BaseFloatingWindowActivity extends Activity {
         currentSpeedLayout = new LinearLayout(this);
         mLayCam = new LinearLayout(this);
         eventLayout = new LinearLayout(this);
-        LinearLayout.LayoutParams layoutParamsCurrentSpeed = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,LinearLayout.LayoutParams.WRAP_CONTENT);
+        LinearLayout.LayoutParams layoutParamsMatchHeight = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,LinearLayout.LayoutParams.MATCH_PARENT);
         LinearLayout.LayoutParams layoutParamsTextWarpContent = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,LinearLayout.LayoutParams.WRAP_CONTENT);
         LinearLayout.LayoutParams layoutParamsTextMatchParent = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,LinearLayout.LayoutParams.MATCH_PARENT);
 
@@ -334,16 +317,12 @@ public abstract class BaseFloatingWindowActivity extends Activity {
         mLayCam.setBackgroundColor(Color.argb(66, 255, 0, 255));
         eventLayout.setBackgroundColor(Color.argb(100, 255, 255, 0));
 
-        currentSpeedLayout.setLayoutParams(layoutParamsCurrentSpeed);
+        currentSpeedLayout.setLayoutParams(layoutParamsTextWarpContent);
         mLayCam.setLayoutParams(layoutParamsTextWarpContent);
-        eventLayout.setLayoutParams(layoutParamsCurrentSpeed);
+        eventLayout.setLayoutParams(layoutParamsTextWarpContent);
 
         mLayCam.setOrientation(LinearLayout.VERTICAL);
-
-        currentSpeedLayout.setOrientation(LinearLayout.VERTICAL);
-        if(getCurrentSpeedResId() != null) {
-            currentSpeedLayout.setBackground(getCurrentSpeedResId());
-        }
+        currentSpeedLayout.setOrientation(LinearLayout.HORIZONTAL);
 
 //        if(getSpeedLimitResId() != null) {
 //            speedLimitLayout.setBackground(getSpeedLimitResId());
@@ -369,6 +348,9 @@ public abstract class BaseFloatingWindowActivity extends Activity {
         mCamDist = new TextView(this);
         mCamSpeed = new TextView(this);
         mCamImage = new ImageView(this);
+        mDigitalImage100 = new ImageView(this);
+        mDigitalImage10 = new ImageView(this);
+        mDigitalImage1 = new ImageView(this);
 
         currentSpeedTv.setTextColor(Color.BLUE);
         speedLimitTv.setTextColor(Color.BLUE);
@@ -381,22 +363,31 @@ public abstract class BaseFloatingWindowActivity extends Activity {
         latitudeTv.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL);
         longitudeTv.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL);
         eventTv.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL);
+        mLayCam.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL);
 
-        currentSpeedTv.setLayoutParams(layoutParamsTextWarpContent);
+
+        currentSpeedTv.setLayoutParams(layoutParamsMatchHeight);
         speedLimitTv.setLayoutParams(layoutParamsTextMatchParent);
         latitudeTv.setLayoutParams(layoutParamsTextWarpContent);
         longitudeTv.setLayoutParams(layoutParamsTextWarpContent);
         eventTv.setLayoutParams(layoutParamsTextMatchParent);
         mCamSpeed.setLayoutParams(layoutParamsTextMatchParent);
         //mCamDist.setLayoutParams(layoutParamsTextMatchParent);
+        mDigitalImage100.setLayoutParams(layoutParamsMatchHeight);
+        mDigitalImage10.setLayoutParams(layoutParamsMatchHeight);
+        mDigitalImage1.setLayoutParams(layoutParamsMatchHeight);
 
         //event test
         eventTv.setText("前有測速照相");
+        currentSpeedTv.setText(" km/h");
 
         mLayCam.addView(mCamDist);
         mLayCam.addView(mCamImage);
         mLayCam.addView(mCamSpeed);
-        currentSpeedLayout.addView(getSpeedRes());
+        currentSpeedLayout.addView(mDigitalImage100);
+        currentSpeedLayout.addView(mDigitalImage10);
+        currentSpeedLayout.addView(mDigitalImage1);
+        currentSpeedLayout.addView(currentSpeedTv);
 
         eventLayout.addView(eventTv);
 

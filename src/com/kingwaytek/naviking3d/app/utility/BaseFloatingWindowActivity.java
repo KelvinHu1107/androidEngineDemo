@@ -8,8 +8,10 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.PixelFormat;
+import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.location.Location;
 import android.location.LocationListener;
@@ -17,6 +19,8 @@ import android.location.LocationManager;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 import android.provider.Settings;
 import android.support.v4.app.ActivityCompat;
 import android.util.Log;
@@ -25,9 +29,27 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.kingwaytek.naviking3d.app.R;
+import com.kingwaytek.naviking3d.app.UI_Caution;
+
+import java.util.ArrayList;
+import java.util.Timer;
+import java.util.TimerTask;
+
+import kr.co.citus.engine.ApiProxy;
+import kr.co.citus.engine.citus_api;
+import kr.co.citus.engine.struct.IPOINT;
+import kr.co.citus.engine.struct.RG_GUIDE_INFO;
+import kr.co.citus.engine.struct.RG_REMAIN_INFO;
+import kr.co.citus.engine.struct.ROUTE_ITEM;
+import kr.co.citus.engine.struct.SIGNPOST_GUIDEINFO;
+import kr.co.citus.engine.wrap.WrapInt;
+import kr.co.citus.engine.wrap.WrapString;
 
 /**
  * Created by kelvinhu1107 on 2017/11/13.
@@ -38,16 +60,23 @@ public abstract class BaseFloatingWindowActivity extends Activity {
     final static String TAG = "BaseFloatingWindow";
     final static int OVERLAY_PERMISSION_REQ_CODE = 99;
     final static int REQUEST_CODE_FINE_GPS = 100;
+    private static boolean mIsNowTimerProc;
+    private static Timer mTimer = null;
     private WindowManager mWindowManager;
-    private LinearLayout currentSpeedLayout, speedLimitLayout, eventLayout;
+    private LinearLayout currentSpeedLayout, eventLayout;
     private Button closeBtn, activateBtn;
     private LocationManager mLocationManager;
     private LocationListener mLocationListener;
     private TextView currentSpeedTv, speedLimitTv, latitudeTv, longitudeTv, eventTv;
+    LinearLayout mLayCam = null;
+    TextView mCamDist = null;
+    TextView mCamSpeed = null;
+    ImageView mCamImage = null;
+    private static int timerCount = 0;
 
     public abstract int getLayoutResId();
 
-    public abstract Drawable getSpeedLimitResId();
+    public abstract View getSpeedLimitResId();
 
     public abstract Drawable getCurrentSpeedResId();
 
@@ -55,7 +84,65 @@ public abstract class BaseFloatingWindowActivity extends Activity {
 
     public abstract Drawable getCloseBtnResId();
 
+    public abstract View getSpeedRes();
+
     public abstract int getActivateBtnId();
+
+    public void setmCamSpeed(String string){
+        if(string != null) {
+            mCamSpeed.setText(string);
+        }
+        else{
+            mCamSpeed.setVisibility(View.GONE);
+        }
+    }
+
+    public void setmCamImage(int drawable){
+
+        mCamImage.setImageResource(drawable);
+    }
+
+    public void setmCamDist(String string){
+        if(string != null) {
+            mCamDist.setText(string);
+        }
+        else{
+            mCamDist.setVisibility(View.GONE);
+        }
+    }
+
+    public void removeSpeedImage(){
+        mCamImage.setVisibility(View.GONE);
+        mCamSpeed.setVisibility(View.VISIBLE);
+    }
+
+    public void revealSpeedImage(){
+        mCamImage.setVisibility(View.VISIBLE);
+        mCamSpeed.setVisibility(View.GONE);
+    }
+
+    public void removeCamLayout(){
+        if(mCamImage!= null)
+        mCamImage.setVisibility(View.GONE);
+
+        if(mCamDist!= null)
+            mCamDist.setVisibility(View.GONE);
+
+        if(mCamSpeed!= null)
+            mCamSpeed.setVisibility(View.GONE);
+    }
+
+    public void revealCamLayout(){
+        if(mCamImage!= null)
+            mCamImage.setVisibility(View.VISIBLE);
+
+        if(mCamDist!= null)
+            mCamDist.setVisibility(View.VISIBLE);
+
+        if(mCamSpeed!= null)
+            mCamSpeed.setVisibility(View.VISIBLE);
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,8 +157,8 @@ public abstract class BaseFloatingWindowActivity extends Activity {
             @Override
             public void onClick(View view) {
                 mWindowManager.removeViewImmediate(currentSpeedLayout);
-                mWindowManager.removeViewImmediate(speedLimitLayout);
-                mWindowManager.removeViewImmediate(eventLayout);
+                mWindowManager.removeViewImmediate(mLayCam);
+                //mWindowManager.removeViewImmediate(eventLayout);
                 mWindowManager.removeViewImmediate(closeBtn);
                 mWindowManager = null;
             }
@@ -101,7 +188,7 @@ public abstract class BaseFloatingWindowActivity extends Activity {
             }
         });
 
-        speedLimitLayout.setOnTouchListener(new View.OnTouchListener() {
+        mLayCam.setOnTouchListener(new View.OnTouchListener() {
             WindowManager.LayoutParams updatedParams = paramsSpeedLimit;
             int x,y;
             float touchX,touchY;
@@ -117,31 +204,7 @@ public abstract class BaseFloatingWindowActivity extends Activity {
                     case MotionEvent.ACTION_MOVE:
                         updatedParams.x = (int)(x+(motionEvent.getRawX() - touchX));
                         updatedParams.y = (int)(y+(motionEvent.getRawY() - touchY));
-                        mWindowManager.updateViewLayout(speedLimitLayout,updatedParams);
-                        break;
-                    default:break;
-                }
-                return false;
-            }
-        });
-
-        eventLayout.setOnTouchListener(new View.OnTouchListener() {
-            WindowManager.LayoutParams updatedParams = paramsEvent;
-            int x,y;
-            float touchX,touchY;
-            @Override
-            public boolean onTouch(View view, MotionEvent motionEvent) {
-                switch (motionEvent.getAction()){
-                    case MotionEvent.ACTION_DOWN:
-                        x= updatedParams.x;
-                        y=updatedParams.y;
-                        touchX = motionEvent.getRawX();
-                        touchY = motionEvent.getRawY();
-                        break;
-                    case MotionEvent.ACTION_MOVE:
-                        updatedParams.x = (int)(x+(motionEvent.getRawX() - touchX));
-                        updatedParams.y = (int)(y+(motionEvent.getRawY() - touchY));
-                        mWindowManager.updateViewLayout(eventLayout,updatedParams);
+                        mWindowManager.updateViewLayout(mLayCam,updatedParams);
                         break;
                     default:break;
                 }
@@ -152,12 +215,14 @@ public abstract class BaseFloatingWindowActivity extends Activity {
 
     public void findViews(Button activateBtn){
 
-        activateBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                initComponent();
-            }
-        });
+        if(activateBtn!= null) {
+            activateBtn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    initComponent();
+                }
+            });
+        }
     }
 
 //    private void checkPermission(){
@@ -259,28 +324,30 @@ public abstract class BaseFloatingWindowActivity extends Activity {
 
         mWindowManager = (WindowManager) getSystemService(WINDOW_SERVICE);
         currentSpeedLayout = new LinearLayout(this);
-        speedLimitLayout = new LinearLayout(this);
+        mLayCam = new LinearLayout(this);
         eventLayout = new LinearLayout(this);
         LinearLayout.LayoutParams layoutParamsCurrentSpeed = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,LinearLayout.LayoutParams.WRAP_CONTENT);
         LinearLayout.LayoutParams layoutParamsTextWarpContent = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,LinearLayout.LayoutParams.WRAP_CONTENT);
         LinearLayout.LayoutParams layoutParamsTextMatchParent = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,LinearLayout.LayoutParams.MATCH_PARENT);
 
         currentSpeedLayout.setBackgroundColor(Color.argb(66, 255, 0, 0));
-        speedLimitLayout.setBackgroundColor(Color.argb(66, 255, 0, 255));
+        mLayCam.setBackgroundColor(Color.argb(66, 255, 0, 255));
         eventLayout.setBackgroundColor(Color.argb(100, 255, 255, 0));
 
         currentSpeedLayout.setLayoutParams(layoutParamsCurrentSpeed);
-        speedLimitLayout.setLayoutParams(layoutParamsTextWarpContent);
+        mLayCam.setLayoutParams(layoutParamsTextWarpContent);
         eventLayout.setLayoutParams(layoutParamsCurrentSpeed);
+
+        mLayCam.setOrientation(LinearLayout.VERTICAL);
 
         currentSpeedLayout.setOrientation(LinearLayout.VERTICAL);
         if(getCurrentSpeedResId() != null) {
             currentSpeedLayout.setBackground(getCurrentSpeedResId());
         }
 
-        if(getSpeedLimitResId() != null) {
-            speedLimitLayout.setBackground(getSpeedLimitResId());
-        }
+//        if(getSpeedLimitResId() != null) {
+//            speedLimitLayout.setBackground(getSpeedLimitResId());
+//        }
 
         if(getEventWindowResId() != null) {
             eventLayout.setBackground(getEventWindowResId());
@@ -299,6 +366,9 @@ public abstract class BaseFloatingWindowActivity extends Activity {
         latitudeTv = new TextView(this);
         longitudeTv = new TextView(this);
         eventTv = new TextView(this);
+        mCamDist = new TextView(this);
+        mCamSpeed = new TextView(this);
+        mCamImage = new ImageView(this);
 
         currentSpeedTv.setTextColor(Color.BLUE);
         speedLimitTv.setTextColor(Color.BLUE);
@@ -317,18 +387,21 @@ public abstract class BaseFloatingWindowActivity extends Activity {
         latitudeTv.setLayoutParams(layoutParamsTextWarpContent);
         longitudeTv.setLayoutParams(layoutParamsTextWarpContent);
         eventTv.setLayoutParams(layoutParamsTextMatchParent);
+        mCamSpeed.setLayoutParams(layoutParamsTextMatchParent);
+        //mCamDist.setLayoutParams(layoutParamsTextMatchParent);
 
         //event test
         eventTv.setText("前有測速照相");
 
-        speedLimitLayout.addView(speedLimitTv);
-        currentSpeedLayout.addView(currentSpeedTv);
-        currentSpeedLayout.addView(latitudeTv);
-        currentSpeedLayout.addView(longitudeTv);
+        mLayCam.addView(mCamDist);
+        mLayCam.addView(mCamImage);
+        mLayCam.addView(mCamSpeed);
+        currentSpeedLayout.addView(getSpeedRes());
+
         eventLayout.addView(eventTv);
 
-        final WindowManager.LayoutParams currentSpeedParams = new WindowManager.LayoutParams(400,500,WindowManager.LayoutParams.TYPE_PHONE,WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE, PixelFormat.TRANSLUCENT);
-        final WindowManager.LayoutParams speedLimitParams = new WindowManager.LayoutParams(300,300,WindowManager.LayoutParams.TYPE_PHONE,WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE, PixelFormat.TRANSLUCENT);
+        final WindowManager.LayoutParams currentSpeedParams = new WindowManager.LayoutParams(700,300,WindowManager.LayoutParams.TYPE_PHONE,WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE, PixelFormat.TRANSLUCENT);
+        final WindowManager.LayoutParams speedLimitParams = new WindowManager.LayoutParams(500,500,WindowManager.LayoutParams.TYPE_PHONE,WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE, PixelFormat.TRANSLUCENT);
         final WindowManager.LayoutParams eventParams = new WindowManager.LayoutParams(600,200,WindowManager.LayoutParams.TYPE_PHONE,WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE, PixelFormat.TRANSLUCENT);
 
         currentSpeedParams.x = 0;
@@ -341,12 +414,12 @@ public abstract class BaseFloatingWindowActivity extends Activity {
         speedLimitParams.x = 100;
         speedLimitParams.y = 200;
         speedLimitParams.gravity = Gravity.TOP | Gravity.LEFT;
-        mWindowManager.addView(speedLimitLayout, speedLimitParams);
+        mWindowManager.addView(mLayCam, speedLimitParams);
 
         eventParams.x = 0;
         eventParams.y = 300;
         eventParams.gravity = Gravity.TOP;
-        mWindowManager.addView(eventLayout, eventParams);
+        //mWindowManager.addView(eventLayout, eventParams);
 
         setClickListener(currentSpeedParams, eventParams, speedLimitParams);
 

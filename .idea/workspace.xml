@@ -12,338 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb640ed5-9c40-42ce-956b-1faa3c046fd2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-10-14-00-23-855.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-10-14-00-23-855.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-10-14-01-04-658.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-10-14-01-04-658.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/multi-dex/debug/componentClasses.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/multi-dex/debug/components.flags" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/multi-dex/debug/maindexlist.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/26.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/28.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/29.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/30.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/31.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/33.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/android/tools/ir/dummy/slice_0.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/38/com/android/tools/ir/dummy/slice_1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/com/android/tools/ir/dummy/slice_2.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/kr/co/citus/engine/struct/BOUND_BOX.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/kr/co/citus/engine/struct/DB_ADDR_INFO.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/kr/co/citus/engine/struct/DB_ITEM.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/kr/co/citus/engine/struct/DB_KIND_INFO.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/kr/co/citus/engine/struct/ICON_INFO.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/kr/co/citus/engine/struct/IPOINT.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/kr/co/citus/engine/struct/MAP_MATCH_RESULT_INFO.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/kr/co/citus/engine/struct/MAP_PICK_INFO.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/kr/co/citus/engine/struct/MARK_INFO.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/kr/co/citus/engine/struct/MM_IPC_CAND_INFO.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/kr/co/citus/engine/struct/NDB_ADMIN_INFO.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/kr/co/citus/engine/struct/NDB_KIND_INFO.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/kr/co/citus/engine/struct/NDB_POI_BODY_INFO.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/kr/co/citus/engine/struct/NDB_RESULT.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/kr/co/citus/engine/struct/POI_INFO.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/kr/co/citus/engine/struct/RECENT_DEST_ITEM.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/kr/co/citus/engine/struct/RG_GUIDE_INFO.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/kr/co/citus/engine/struct/RG_HIWAY_INFO.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/kr/co/citus/engine/struct/RG_REMAIN_INFO.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/kr/co/citus/engine/struct/ROUTE_ITEM.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/kr/co/citus/engine/struct/SIGNPOST_GUIDEINFO.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/kr/co/citus/engine/struct/ST_TRANS.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/kr/co/citus/engine/struct/TMC_INFO$DT_AccidentProne.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/kr/co/citus/engine/struct/TMC_INFO$DT_CityCMS.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/kr/co/citus/engine/struct/TMC_INFO$DT_CityEvent.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/kr/co/citus/engine/struct/TMC_INFO$GetCCTVByRoadID.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/kr/co/citus/engine/struct/TMC_INFO$Note.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/kr/co/citus/engine/struct/TMC_INFO$Note_Road.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/kr/co/citus/engine/struct/TMC_INFO$View_RoadSpeed.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/kr/co/citus/engine/struct/TMC_INFO.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/kr/co/citus/engine/struct/TMC_ROUTE_INFO.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/40/com/android/tools/ir/dummy/slice_3.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/41/com/android/tools/ir/dummy/slice_4.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/42/com/android/tools/ir/dummy/slice_5.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/42/kr/co/citus/engine/ApiProxy.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/42/kr/co/citus/engine/MSG_INFO.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/42/kr/co/citus/engine/MessageQue.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/42/kr/co/citus/engine/Mutex.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/42/kr/co/citus/engine/ReceiveTMCInfo.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/42/kr/co/citus/engine/TBTGraph.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/42/kr/co/citus/engine/citus_api$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/42/kr/co/citus/engine/citus_api.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/42/kr/co/citus/engine/citus_listener.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/42/kr/co/citus/engine/win_define.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/42/kr/co/citus/engine/wrap/WrapBoolean.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/42/kr/co/citus/engine/wrap/WrapDouble.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/42/kr/co/citus/engine/wrap/WrapFloat.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/42/kr/co/citus/engine/wrap/WrapInt.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/42/kr/co/citus/engine/wrap/WrapLong.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/42/kr/co/citus/engine/wrap/WrapString.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/android/tools/ir/dummy/slice_6.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/BuildConfig.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/CarTestActivity$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/CarTestActivity.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$1$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$10$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$10.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$11$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$11.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$12$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$12.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$13$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$13.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$14$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$14.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$15$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$15.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$16$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$16.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$17$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$17.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$18$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$18.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$19$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$19.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$2$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$2.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$20$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$20.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$21$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$21.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$22$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$22.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$23$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$23.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$24$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$24.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$25$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$25.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$26$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$26.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$27.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$28$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$28.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$29$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$29.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$3$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$3.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$4$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$4.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$5$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$5.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$6$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$6.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$7$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$7.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$8$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$8.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$9$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity$9.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ExSettingActivity.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/MapViewActivity$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/MapViewActivity$10$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/MapViewActivity$10.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/MapViewActivity$11$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/MapViewActivity$11.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/MapViewActivity$12.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/MapViewActivity$13.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/MapViewActivity$14.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/MapViewActivity$15.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/MapViewActivity$16.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/MapViewActivity$2.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/MapViewActivity$3.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/MapViewActivity$4.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/MapViewActivity$5.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/MapViewActivity$6.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/MapViewActivity$7.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/MapViewActivity$8.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/MapViewActivity$9.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/MapViewActivity$ScaleListener.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/MapViewActivity.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/PoiIconTest$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/PoiIconTest$2.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/PoiIconTest$3.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/PoiIconTest$4.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/PoiIconTest.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/R$anim.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/R$color.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/R$dimen.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/R$drawable.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/R$id.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/R$layout.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/R$menu.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/R$string.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/R$style.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/R.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/RegionFilter1$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/RegionFilter1$ListAdapter.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/RegionFilter1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/RegionFilter2$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/RegionFilter2$ListAdapter.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/RegionFilter2.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/RouteActivity$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/RouteActivity$2.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/RouteActivity$3.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/RouteActivity$4.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/RouteActivity$5.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/RouteActivity.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/RouteConfigActivity$1$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/RouteConfigActivity$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/RouteConfigActivity$2.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/RouteConfigActivity$3.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/RouteConfigActivity$4.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/RouteConfigActivity$5.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/RouteConfigActivity.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/RouteDetailActivity$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/RouteDetailActivity$2.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/RouteDetailActivity$3.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/RouteDetailActivity.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/RouteListActivity$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/RouteListActivity$2.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/RouteListActivity$ListAdapter.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/RouteListActivity$RouteItem.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/RouteListActivity.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/ScaleView.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/Start.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/UI_Caution$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/UI_Caution$2.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/UI_Caution$3$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/UI_Caution$3.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/UI_Caution$4.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/UI_Caution$5.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/UI_Caution$DisplayLocationListener.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/UI_Caution.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/VerticalProgressBar.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43/com/kingwaytek/naviking3d/app/VerticalSeekBar.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/android/tools/ir/dummy/slice_7.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/navi/NaviHandler.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_MAIN_MENU$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_MAIN_MENU$10.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_MAIN_MENU$11.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_MAIN_MENU$12.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_MAIN_MENU$2.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_MAIN_MENU$3.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_MAIN_MENU$4.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_MAIN_MENU$5.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_MAIN_MENU$6.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_MAIN_MENU$7.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_MAIN_MENU$8$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_MAIN_MENU$8.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_MAIN_MENU$9.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_MAIN_MENU.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_ROUTE_LIST$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_ROUTE_LIST$2.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_ROUTE_LIST$3.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_ROUTE_LIST$4.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_ROUTE_LIST$ListAdapter.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_ROUTE_LIST.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_GROUP_LIST$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_GROUP_LIST$2.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_GROUP_LIST$3.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_GROUP_LIST$4.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_GROUP_LIST$5.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_GROUP_LIST$6.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_GROUP_LIST$ListAdapter.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_GROUP_LIST.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$10.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$2.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$3$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$3.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$4.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$5.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$6.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$7.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$8.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$9.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$ListAdapter.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT_LIST$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT_LIST$2.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT_LIST$3.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT_LIST$4.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT_LIST$ListAdapter.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT_LIST.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_KIND$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_KIND$2.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_KIND$3.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_KIND.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_KIND2$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_KIND2$2.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_KIND2$3.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_KIND2.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_KIND3$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_KIND3$2.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_KIND3$3.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_KIND3.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_KIND_LIST$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_KIND_LIST$2.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_KIND_LIST$3.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_KIND_LIST$4.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_KIND_LIST$ListAdapter.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_KIND_LIST.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_MS_LIST$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_MS_LIST$2.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_MS_LIST$3.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_MS_LIST$4.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_MS_LIST$ListAdapter.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_MS_LIST.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NAME_LIST$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NAME_LIST$2.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NAME_LIST$3.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NAME_LIST$4.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NAME_LIST$5.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NAME_LIST$6.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NAME_LIST$7.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NAME_LIST$8.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NAME_LIST$9.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NAME_LIST$ListAdapter.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NAME_LIST.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NEAR$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NEAR$2.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NEAR$3.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NEAR$4.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NEAR$5.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NEAR$6.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NEAR.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NEAR_LIST$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NEAR_LIST$2.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NEAR_LIST$3.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NEAR_LIST$4.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NEAR_LIST$ListAdapter.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NEAR_LIST.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_TEL_LIST$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_TEL_LIST$2.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_TEL_LIST$3.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_TEL_LIST$4.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_TEL_LIST$5.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_TEL_LIST$6.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_TEL_LIST$ListAdapter.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_TEL_LIST.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_UBCODE_LIST$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_UBCODE_LIST$2.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_UBCODE_LIST$3.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_UBCODE_LIST$4.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_UBCODE_LIST$5.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_UBCODE_LIST$6.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_UBCODE_LIST$ListAdapter.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_UBCODE_LIST.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_VIEW_MAP_SEARCH$1.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_VIEW_MAP_SEARCH$10.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_VIEW_MAP_SEARCH$2.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_VIEW_MAP_SEARCH$3.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_VIEW_MAP_SEARCH$4.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_VIEW_MAP_SEARCH$5.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_VIEW_MAP_SEARCH$6.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_VIEW_MAP_SEARCH$7.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_VIEW_MAP_SEARCH$8.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_VIEW_MAP_SEARCH$9.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_VIEW_MAP_SEARCH$ScaleListener.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44/com/kingwaytek/naviking3d/app/dlg/DLG_VIEW_MAP_SEARCH.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/45/android/support/multidex/R.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/45/com/android/tools/ir/dummy/slice_8.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/46/com/android/tools/ir/dummy/slice_9.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/17/classes.dex" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
@@ -352,8 +20,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/CarTestActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/CarTestActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/ExSettingActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/ExSettingActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/MapViewActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/MapViewActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/MapViewActivity$10$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/MapViewActivity$10$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/MapViewActivity$10.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/MapViewActivity$10.class" />
@@ -374,52 +40,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/MapViewActivity$9.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/MapViewActivity$9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/MapViewActivity$ScaleListener.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/MapViewActivity$ScaleListener.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/MapViewActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/MapViewActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/PoiIconTest.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/PoiIconTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/R$id.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/R$layout.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/R$menu.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/R$string.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/R$style.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/RegionFilter1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/RegionFilter1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/RegionFilter2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/RegionFilter2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/RouteActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/RouteActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/RouteConfigActivity$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/RouteConfigActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/RouteConfigActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/RouteConfigActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/RouteDetailActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/RouteDetailActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/RouteListActivity$ListAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/RouteListActivity$ListAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/RouteListActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/RouteListActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/UI_Caution$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/UI_Caution$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/UI_Caution$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/UI_Caution$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/UI_Caution$3$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/UI_Caution$3$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/UI_Caution$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/UI_Caution$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/UI_Caution$4.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/UI_Caution$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/UI_Caution$5.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/UI_Caution$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/UI_Caution$DisplayLocationListener.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/UI_Caution$DisplayLocationListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/UI_Caution.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/UI_Caution.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_ROUTE_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_ROUTE_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_GROUP_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_GROUP_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$3$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$3$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$4.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$5.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$6.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_KIND_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_KIND_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_MS_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_MS_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NAME_LIST$4.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NAME_LIST$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NAME_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NAME_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NEAR.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NEAR.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NEAR_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NEAR_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_TEL_LIST$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_TEL_LIST$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_TEL_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_TEL_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_UBCODE_LIST$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_UBCODE_LIST$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_UBCODE_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_UBCODE_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_VIEW_MAP_SEARCH.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/dlg/DLG_VIEW_MAP_SEARCH.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/kr/co/citus/engine/citus_api$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/kr/co/citus/engine/citus_api$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/kr/co/citus/engine/citus_api.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/kr/co/citus/engine/citus_api.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/CarTestActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/CarTestActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/ExSettingActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/ExSettingActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$4.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$5.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$6.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/MapViewActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/MapViewActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/MapViewActivity$10$1.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/MapViewActivity$10$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/MapViewActivity$10.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/MapViewActivity$10.class" />
@@ -440,101 +67,44 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/MapViewActivity$9.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/MapViewActivity$9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/MapViewActivity$ScaleListener.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/MapViewActivity$ScaleListener.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/MapViewActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/MapViewActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/PoiIconTest.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/PoiIconTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/R$id.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/R$layout.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/R$menu.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/R$string.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/R$style.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/RegionFilter1.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/RegionFilter1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/RegionFilter2.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/RegionFilter2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/RouteActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/RouteActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/RouteConfigActivity$2.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/RouteConfigActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/RouteConfigActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/RouteConfigActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/RouteDetailActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/RouteDetailActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/RouteListActivity$ListAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/RouteListActivity$ListAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/RouteListActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/RouteListActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/UI_Caution$1.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/UI_Caution$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/UI_Caution$2.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/UI_Caution$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/UI_Caution$3$1.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/UI_Caution$3$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/UI_Caution$3.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/UI_Caution$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/UI_Caution$4.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/UI_Caution$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/UI_Caution$5.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/UI_Caution$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/UI_Caution$DisplayLocationListener.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/UI_Caution$DisplayLocationListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/UI_Caution.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/UI_Caution.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_ROUTE_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_ROUTE_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_GROUP_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_GROUP_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$3$1.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$3$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$4.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$5.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$6.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_KIND_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_KIND_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_MS_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_MS_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NAME_LIST$4.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NAME_LIST$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NAME_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NAME_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NEAR.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NEAR.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NEAR_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NEAR_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_TEL_LIST$2.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_TEL_LIST$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_TEL_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_TEL_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_UBCODE_LIST$2.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_UBCODE_LIST$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_UBCODE_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_UBCODE_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_VIEW_MAP_SEARCH.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/dlg/DLG_VIEW_MAP_SEARCH.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/kr/co/citus/engine/citus_api$1.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/kr/co/citus/engine/citus_api$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/kr/co/citus/engine/citus_api.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/kr/co/citus/engine/citus_api.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/debug/zip-cache/7WWceZ3nYTlYIKsCIzzc8V8TJxk=" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/debug/zip-cache/7WWceZ3nYTlYIKsCIzzc8V8TJxk=" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/debug/zip-cache/_2jUWvr5DHLPujsJ9w2Ec2XaCQQ=" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/debug/zip-cache/_2jUWvr5DHLPujsJ9w2Ec2XaCQQ=" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageInstantRunResourcesDebug/debug/zip-cache/_2jUWvr5DHLPujsJ9w2Ec2XaCQQ=" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageInstantRunResourcesDebug/debug/zip-cache/_2jUWvr5DHLPujsJ9w2Ec2XaCQQ=" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-port_map_group_bottom_portrait.xml.flat" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-port_map_group_bottom_portrait.xml.flat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/split-apk/debug/dep/dependencies.apk" afterPath="$PROJECT_DIR$/build/intermediates/split-apk/debug/dep/dependencies.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_0.apk" afterPath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_0.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_1.apk" afterPath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_1.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_2.apk" afterPath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_2.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_3.apk" afterPath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_3.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_4.apk" afterPath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_4.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_5.apk" afterPath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_5.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$2.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$3.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$4.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$5.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$6.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_6.apk" afterPath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_6.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_7.apk" afterPath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_7.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_8.apk" afterPath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_8.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_9.apk" afterPath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_9.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0.jar" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/1.jar" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/12.jar" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/12.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/14.jar" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/14.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/15.jar" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/15.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/17.jar" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/17.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/19.jar" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/19.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/2.jar" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/27.jar" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/27.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/3.jar" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/3.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/4.jar" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/5.jar" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/5.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/6.jar" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/7.jar" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/7.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/8.jar" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/8.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/9.jar" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/9.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/1/classes.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/1/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/10/classes.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/10/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/11/classes.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/11/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/12/classes.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/12/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/13/classes.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/13/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/14/classes.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/14/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/15/classes.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/15/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/16/classes.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/16/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/2/classes.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/2/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/3/classes.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/3/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/4/classes.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/4/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/5/classes.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/5/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$1.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$1.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$10$1.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$10$1.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$10.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$10.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$11$1.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$11$1.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$11.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$11.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$12.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$12.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$13.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$13.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$14.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$14.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$15.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$15.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$16.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$16.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$2.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$2.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$3.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$3.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$4.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$4.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$5.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$5.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$6.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$6.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$7.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$7.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$8.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$8.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$9.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$9.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$ScaleListener.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity$ScaleListener.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37/com/kingwaytek/naviking3d/app/MapViewActivity.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$1.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$1.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$2.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$2.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$3.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$3.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$4.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$4.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$5.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$5.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$6.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$6.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/6/classes.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/6/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/7/classes.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/7/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/8/classes.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/8/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/9/classes.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/9/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/CarTestActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/CarTestActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/ExSettingActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/ExSettingActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/MapViewActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/MapViewActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/MapViewActivity$10$1.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/MapViewActivity$10$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/MapViewActivity$10.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/MapViewActivity$10.class" />
@@ -555,53 +125,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/MapViewActivity$9.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/MapViewActivity$9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/MapViewActivity$ScaleListener.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/MapViewActivity$ScaleListener.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/MapViewActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/MapViewActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/PoiIconTest.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/PoiIconTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/R$id.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/R$layout.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/R$menu.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/R$string.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/R$style.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/RegionFilter1.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/RegionFilter1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/RegionFilter2.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/RegionFilter2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/RouteActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/RouteActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/RouteConfigActivity$2.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/RouteConfigActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/RouteConfigActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/RouteConfigActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/RouteDetailActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/RouteDetailActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/RouteListActivity$ListAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/RouteListActivity$ListAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/RouteListActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/RouteListActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/UI_Caution$1.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/UI_Caution$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/UI_Caution$2.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/UI_Caution$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/UI_Caution$3$1.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/UI_Caution$3$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/UI_Caution$3.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/UI_Caution$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/UI_Caution$4.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/UI_Caution$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/UI_Caution$5.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/UI_Caution$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/UI_Caution$DisplayLocationListener.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/UI_Caution$DisplayLocationListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/UI_Caution.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/UI_Caution.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_ROUTE_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_ROUTE_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_GROUP_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_GROUP_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$3$1.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$3$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$4.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$5.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$6.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_KIND_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_KIND_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_MS_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_MS_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NAME_LIST$4.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NAME_LIST$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NAME_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NAME_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NEAR.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NEAR.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NEAR_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NEAR_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_TEL_LIST$2.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_TEL_LIST$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_TEL_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_TEL_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_UBCODE_LIST$2.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_UBCODE_LIST$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_UBCODE_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_UBCODE_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_VIEW_MAP_SEARCH.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/dlg/DLG_VIEW_MAP_SEARCH.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/kr/co/citus/engine/citus_api$1.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/kr/co/citus/engine/citus_api$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/kr/co/citus/engine/citus_api.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/kr/co/citus/engine/citus_api.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/5/kr/co/citus/engine/citus_api$1.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/5/kr/co/citus/engine/citus_api$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/5/kr/co/citus/engine/citus_api.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/5/kr/co/citus/engine/citus_api.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/CarTestActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/CarTestActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/ExSettingActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/ExSettingActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$2.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$3.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$4.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$5.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$6.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/MapViewActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/MapViewActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/MapViewActivity$10$1.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/MapViewActivity$10$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/MapViewActivity$10.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/MapViewActivity$10.class" />
@@ -622,84 +152,20 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/MapViewActivity$9.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/MapViewActivity$9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/MapViewActivity$ScaleListener.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/MapViewActivity$ScaleListener.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/MapViewActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/MapViewActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/PoiIconTest.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/PoiIconTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/R$id.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/R$layout.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/R$menu.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/R$string.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/R$style.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/RegionFilter1.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/RegionFilter1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/RegionFilter2.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/RegionFilter2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/RouteActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/RouteActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/RouteConfigActivity$2.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/RouteConfigActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/RouteConfigActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/RouteConfigActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/RouteDetailActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/RouteDetailActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/RouteListActivity$ListAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/RouteListActivity$ListAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/RouteListActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/RouteListActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/UI_Caution$1.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/UI_Caution$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/UI_Caution$2.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/UI_Caution$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/UI_Caution$3$1.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/UI_Caution$3$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/UI_Caution$3.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/UI_Caution$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/UI_Caution$4.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/UI_Caution$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/UI_Caution$5.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/UI_Caution$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/UI_Caution$DisplayLocationListener.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/UI_Caution$DisplayLocationListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/UI_Caution.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/kingwaytek/naviking3d/app/UI_Caution.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_ROUTE_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_ROUTE_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_GROUP_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_GROUP_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$3$1.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$3$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$4.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$5.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$6.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_INT_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_KIND_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_KIND_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_MS_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_MS_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NAME_LIST$4.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NAME_LIST$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NAME_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NAME_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NEAR.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NEAR.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NEAR_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_NEAR_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_TEL_LIST$2.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_TEL_LIST$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_TEL_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_TEL_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_UBCODE_LIST$2.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_UBCODE_LIST$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_UBCODE_LIST.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_SEARCH_UBCODE_LIST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_VIEW_MAP_SEARCH.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/kingwaytek/naviking3d/app/dlg/DLG_VIEW_MAP_SEARCH.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/mergeJavaRes/debug/0.jar" afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJavaRes/debug/0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/debug/androidEngineDemo-debug.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/debug/androidEngineDemo-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/8/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/8/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/8/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$2.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/8/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/8/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$3.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/8/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/8/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$4.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/8/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/8/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$5.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/8/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/8/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$6.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/8/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/8/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/8/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/androidEngineDemo.iml" afterPath="$PROJECT_DIR$/androidEngineDemo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/debug/com/kingwaytek/naviking3d/app/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/com/kingwaytek/naviking3d/app/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/build-info/debug/build-info.xml" afterPath="$PROJECT_DIR$/build/intermediates/build-info/debug/build-info.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageInstantRunResourcesDebug/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageInstantRunResourcesDebug/debug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageInstantRunResourcesDebug/debug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageInstantRunResourcesDebug/debug/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/instant-run-support/debug/manifestChecker/manifest.crc" afterPath="$PROJECT_DIR$/build/intermediates/instant-run-support/debug/manifestChecker/manifest.crc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/instant-run-support/debug/manifestChecker/manifest.xml" afterPath="$PROJECT_DIR$/build/intermediates/instant-run-support/debug/manifestChecker/manifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/instant-run-support/debug/package_dependencies/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/build/intermediates/instant-run-support/debug/package_dependencies/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/instant-run-support/debug/package_slice_0/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/build/intermediates/instant-run-support/debug/package_slice_0/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/instant-run-support/debug/package_slice_1/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/build/intermediates/instant-run-support/debug/package_slice_1/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/instant-run-support/debug/package_slice_4/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/build/intermediates/instant-run-support/debug/package_slice_4/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/instant-run-support/debug/package_slice_5/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/build/intermediates/instant-run-support/debug/package_slice_5/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/instant-run-support/debug/package_slice_8/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/build/intermediates/instant-run-support/debug/package_slice_8/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/instant-run-support/debug/package_slice_9/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/build/intermediates/instant-run-support/debug/package_slice_9/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterPath="$PROJECT_DIR$/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/__content__.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/__content__.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-port/map_group_bottom_portrait.xml" afterPath="$PROJECT_DIR$/res/layout-port/map_group_bottom_portrait.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kingwaytek/naviking3d/app/MapViewActivity.java" afterPath="$PROJECT_DIR$/src/com/kingwaytek/naviking3d/app/MapViewActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kingwaytek/naviking3d/app/UI_Caution.java" afterPath="$PROJECT_DIR$/src/com/kingwaytek/naviking3d/app/UI_Caution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kr/co/citus/engine/citus_api.java" afterPath="$PROJECT_DIR$/src/kr/co/citus/engine/citus_api.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity.java" afterPath="$PROJECT_DIR$/src/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity.java" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -724,93 +190,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DLG_MAIN_MENU.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/kingwaytek/naviking3d/app/dlg/DLG_MAIN_MENU.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapViewActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MapViewActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kingwaytek/naviking3d/app/MapViewActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1274">
-              <caret line="1080" column="14" lean-forward="false" selection-start-line="1080" selection-start-column="14" selection-end-line="1080" selection-end-column="14" />
+            <state relative-caret-position="-5439">
+              <caret line="1153" column="34" lean-forward="false" selection-start-line="1153" selection-start-column="34" selection-end-line="1153" selection-end-column="34" />
               <folding>
-                <element signature="e#6371#6372#0" expanded="true" />
-                <element signature="e#6401#6402#0" expanded="true" />
-                <element signature="e#6453#6454#0" expanded="true" />
-                <element signature="e#6471#6472#0" expanded="true" />
-                <element signature="e#6525#6526#0" expanded="true" />
-                <element signature="e#6543#6544#0" expanded="true" />
-                <element signature="e#6596#6597#0" expanded="true" />
-                <element signature="e#6614#6615#0" expanded="true" />
-                <element signature="e#6664#6665#0" expanded="true" />
-                <element signature="e#6682#6683#0" expanded="true" />
-                <element signature="e#6727#6728#0" expanded="true" />
-                <element signature="e#6763#6764#0" expanded="true" />
-                <element signature="e#10583#10868#0" expanded="true" />
-                <element signature="e#10867#10868#0" expanded="true" />
+                <element signature="e#6403#6404#0" expanded="true" />
+                <element signature="e#6433#6434#0" expanded="true" />
+                <element signature="e#6760#6761#0" expanded="true" />
+                <element signature="e#6778#6779#0" expanded="true" />
+                <element signature="e#6831#6832#0" expanded="true" />
+                <element signature="e#6849#6850#0" expanded="true" />
+                <element signature="e#6899#6900#0" expanded="true" />
+                <element signature="e#6917#6918#0" expanded="true" />
+                <element signature="e#7472#7473#0" expanded="true" />
+                <element signature="e#7508#7509#0" expanded="true" />
+                <element signature="e#11328#11613#0" expanded="true" />
+                <element signature="e#11612#11613#0" expanded="true" />
+                <element signature="e#18501#18969#0" expanded="true" />
+                <element signature="e#18968#18969#0" expanded="true" />
+                <element signature="e#30468#30722#0" expanded="true" />
+                <element signature="e#30721#30722#0" expanded="true" />
+                <element signature="e#30766#30937#0" expanded="true" />
+                <element signature="e#30936#30937#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+      <file leaf-file-name="citus_api.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kr/co/citus/engine/citus_api.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="51" lean-forward="false" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+            <state relative-caret-position="-4944">
+              <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dimens.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/dimens.xml">
+      <file leaf-file-name="map_activity.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout-land/map_activity.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseFloatingWindowActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="259" column="22" lean-forward="false" selection-start-line="259" selection-start-column="8" selection-end-line="259" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#6066#6215#0" expanded="true" />
-                <element signature="e#6214#6215#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="73" lean-forward="false" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map_group_bottom_portrait.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout-port/map_group_bottom_portrait.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+            <state relative-caret-position="216">
+              <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -819,26 +242,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="map_activity.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/map_activity.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+      <file leaf-file-name="map_group_speed_compass.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/map_group_speed_compass.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
               <folding />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="android-designer2">
+          <provider editor-type-id="android-designer2">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="citus_api.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/kr/co/citus/engine/citus_api.java">
+      <file leaf-file-name="BaseFloatingWindowActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7992">
-              <caret line="376" column="37" lean-forward="false" selection-start-line="376" selection-start-column="37" selection-end-line="376" selection-end-column="37" />
+            <state relative-caret-position="552">
+              <caret line="212" column="11" lean-forward="false" selection-start-line="212" selection-start-column="11" selection-end-line="212" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#7337#7506#0" expanded="true" />
+                <element signature="e#7505#7506#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map_group_bottom_portrait.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout-port/map_group_bottom_portrait.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1104">
+              <caret line="46" column="37" lean-forward="false" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="37" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
@@ -853,36 +293,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>選</find>
-      <find>Hㄛ</find>
-      <find>Hㄕㄛ</find>
-      <find>Hㄘㄛ</find>
-      <find>Hㄘ</find>
-      <find>H</find>
-      <find>Hi</find>
-      <find>High</find>
-      <find>Highw</find>
-      <find>Highway</find>
-      <find>Highway F</find>
-      <find>Highway Fa</find>
-      <find>Highway</find>
-      <find>m</find>
-      <find>mai</find>
-      <find>main</find>
-      <find>mainm</find>
-      <find>mainme</find>
-      <find>mainmen</find>
-      <find>mainmenu</find>
-      <find>DLG_MAIN_MENU</find>
-      <find>d</find>
-      <find>dri</find>
-      <find>driv</find>
-      <find>drive</find>
-      <find>driveV</find>
-      <find>driveVi</find>
-      <find>driveVie</find>
-      <find>driveView</find>
-      <find>3D</find>
+      <find>setSpee</find>
+      <find>onChan</find>
+      <find>refre</find>
+      <find>mScaleView</find>
+      <find>speed</find>
+      <find>SYS_CURRENT_SPEED</find>
+      <find>setSpeedDigit</find>
+      <find>change</find>
+      <find>setBack</find>
+      <find>mBitmapEntryView</find>
+      <find>setBackgrou</find>
+      <find>mViewUnderPass</find>
+      <find>getSpeedLimitResId</find>
+      <find>time</find>
+      <find>onUITimer</find>
+      <find>mTimerHandler</find>
+      <find>mIsNowTimerProc</find>
+      <find>m_timerlock</find>
+      <find>mTimer</find>
+      <find>citus_api</find>
+      <find>oncr</find>
+      <find>chang</find>
+      <find>mButtonSpeedCamera</find>
+      <find>ini</find>
+      <find>mCa</find>
+      <find>findv</find>
+      <find>mTimerTask</find>
+      <find>map_group_speed_compass</find>
+      <find>mLayCam</find>
+      <find>mCamDist</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1872,9 +1312,9 @@
         <option value="$PROJECT_DIR$/src/com/kingwaytek/naviking3d/app/UI_Caution.java" />
         <option value="$PROJECT_DIR$/res/layout-port/map_group_bottom_portrait.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/kingwaytek/naviking3d/app/MapViewActivity.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/kingwaytek/naviking3d/app/MapViewActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity.java" />
       </list>
     </option>
   </component>
@@ -2033,7 +1473,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510544924329" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510631358209" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2081,7 +1521,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510544924329" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510631358209" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2264,7 +1704,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510544924330" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510631358212" />
       </method>
     </configuration>
     <list size="1">
@@ -2317,7 +1757,7 @@
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955357" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Logcat" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35379463" sideWeight="0.90245205" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35825893" sideWeight="0.90245205" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2432,42 +1872,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/kingwaytek/naviking3d/app/RouteDetailActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/armeabi-v7a/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.project">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-19/android.jar!/java/lang/System.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="100" column="23" lean-forward="false" selection-start-line="100" selection-start-column="23" selection-end-line="100" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-19/android.jar!/java/lang/reflect/Method.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="98" column="142" lean-forward="false" selection-start-line="98" selection-start-column="142" selection-end-line="98" selection-end-column="142" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-19/android.jar!/android/os/MessageQueue.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -2591,6 +1995,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2605,6 +2010,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2699,14 +2105,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kr/co/citus/engine/citus_api.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7992">
-          <caret line="376" column="37" lean-forward="false" selection-start-line="376" selection-start-column="37" selection-end-line="376" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/outputs/apk/debug/androidEngineDemo-debug.apk">
       <provider selected="true" editor-type-id="apk-viewer">
         <state />
@@ -2750,29 +2148,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kingwaytek/naviking3d/app/dlg/DLG_MAIN_MENU.java">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="26" />
+        <state relative-caret-position="-1800">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/map_activity.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
+      <provider editor-type-id="android-manifest">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-port/map_group_bottom_portrait.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/map_activity.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2780,10 +2170,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/dimens.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/kingwaytek/naviking3d/app/dlg/DLG_MAIN_MENU.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="-48">
+          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -2796,50 +2186,110 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kingwaytek/naviking3d/app/MapViewActivity.java">
+    <entry file="file://$PROJECT_DIR$/res/values/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1274">
-          <caret line="1080" column="14" lean-forward="false" selection-start-line="1080" selection-start-column="14" selection-end-line="1080" selection-end-column="14" />
-          <folding>
-            <element signature="e#6371#6372#0" expanded="true" />
-            <element signature="e#6401#6402#0" expanded="true" />
-            <element signature="e#6453#6454#0" expanded="true" />
-            <element signature="e#6471#6472#0" expanded="true" />
-            <element signature="e#6525#6526#0" expanded="true" />
-            <element signature="e#6543#6544#0" expanded="true" />
-            <element signature="e#6596#6597#0" expanded="true" />
-            <element signature="e#6614#6615#0" expanded="true" />
-            <element signature="e#6664#6665#0" expanded="true" />
-            <element signature="e#6682#6683#0" expanded="true" />
-            <element signature="e#6727#6728#0" expanded="true" />
-            <element signature="e#6763#6764#0" expanded="true" />
-            <element signature="e#10583#10868#0" expanded="true" />
-            <element signature="e#10867#10868#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/navi_speed_digit_none.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/navi_speed_digit_alert_1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-19/android/graphics/Bitmap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-537">
+          <caret line="440" column="8" lean-forward="false" selection-start-line="440" selection-start-column="8" selection-end-line="440" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/map_group_speed_compass.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-land/map_activity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kr/co/citus/engine/citus_api.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4944">
+          <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-port/map_group_bottom_portrait.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="46" column="37" lean-forward="false" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kingwaytek/naviking3d/app/utility/BaseFloatingWindowActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="259" column="22" lean-forward="false" selection-start-line="259" selection-start-column="8" selection-end-line="259" selection-end-column="22" />
+        <state relative-caret-position="552">
+          <caret line="212" column="11" lean-forward="false" selection-start-line="212" selection-start-column="11" selection-end-line="212" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6066#6215#0" expanded="true" />
-            <element signature="e#6214#6215#0" expanded="true" />
+            <element signature="e#7337#7506#0" expanded="true" />
+            <element signature="e#7505#7506#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/kingwaytek/naviking3d/app/MapViewActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="73" lean-forward="false" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
-          <folding />
+        <state relative-caret-position="-5439">
+          <caret line="1153" column="34" lean-forward="false" selection-start-line="1153" selection-start-column="34" selection-end-line="1153" selection-end-column="34" />
+          <folding>
+            <element signature="e#6403#6404#0" expanded="true" />
+            <element signature="e#6433#6434#0" expanded="true" />
+            <element signature="e#6760#6761#0" expanded="true" />
+            <element signature="e#6778#6779#0" expanded="true" />
+            <element signature="e#6831#6832#0" expanded="true" />
+            <element signature="e#6849#6850#0" expanded="true" />
+            <element signature="e#6899#6900#0" expanded="true" />
+            <element signature="e#6917#6918#0" expanded="true" />
+            <element signature="e#7472#7473#0" expanded="true" />
+            <element signature="e#7508#7509#0" expanded="true" />
+            <element signature="e#11328#11613#0" expanded="true" />
+            <element signature="e#11612#11613#0" expanded="true" />
+            <element signature="e#18501#18969#0" expanded="true" />
+            <element signature="e#18968#18969#0" expanded="true" />
+            <element signature="e#30468#30722#0" expanded="true" />
+            <element signature="e#30721#30722#0" expanded="true" />
+            <element signature="e#30766#30937#0" expanded="true" />
+            <element signature="e#30936#30937#0" expanded="true" />
+          </folding>
         </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
       </provider>
     </entry>
   </component>

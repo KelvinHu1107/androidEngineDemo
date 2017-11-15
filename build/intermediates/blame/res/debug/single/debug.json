@@ -96,12 +96,12 @@
         "source": "C:\\Users\\kelvinhu1107\\Desktop\\Projects\\androidEngineDemo\\res\\drawable\\listicon_31.png"
     },
     {
-        "merged": "C:\\Users\\kelvinhu1107\\Desktop\\Projects\\androidEngineDemo\\build\\intermediates\\res\\merged\\debug\\drawable_xml_btn_demo_hide.xml.flat",
-        "source": "C:\\Users\\kelvinhu1107\\Desktop\\Projects\\androidEngineDemo\\res\\drawable\\xml_btn_demo_hide.xml"
-    },
-    {
         "merged": "C:\\Users\\kelvinhu1107\\Desktop\\Projects\\androidEngineDemo\\build\\intermediates\\res\\merged\\debug\\drawable_xml_btn_gomap.xml.flat",
         "source": "C:\\Users\\kelvinhu1107\\Desktop\\Projects\\androidEngineDemo\\res\\drawable\\xml_btn_gomap.xml"
+    },
+    {
+        "merged": "C:\\Users\\kelvinhu1107\\Desktop\\Projects\\androidEngineDemo\\build\\intermediates\\res\\merged\\debug\\drawable_xml_btn_demo_hide.xml.flat",
+        "source": "C:\\Users\\kelvinhu1107\\Desktop\\Projects\\androidEngineDemo\\res\\drawable\\xml_btn_demo_hide.xml"
     },
     {
         "merged": "C:\\Users\\kelvinhu1107\\Desktop\\Projects\\androidEngineDemo\\build\\intermediates\\res\\merged\\debug\\drawable_xml_btn_option.xml.flat",
@@ -826,6 +826,10 @@
     {
         "merged": "C:\\Users\\kelvinhu1107\\Desktop\\Projects\\androidEngineDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_ex_setting.xml.flat",
         "source": "C:\\Users\\kelvinhu1107\\Desktop\\Projects\\androidEngineDemo\\res\\layout\\activity_ex_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\kelvinhu1107\\Desktop\\Projects\\androidEngineDemo\\build\\intermediates\\res\\merged\\debug\\layout_hud_panel.xml.flat",
+        "source": "C:\\Users\\kelvinhu1107\\Desktop\\Projects\\androidEngineDemo\\res\\layout\\hud_panel.xml"
     },
     {
         "merged": "C:\\Users\\kelvinhu1107\\Desktop\\Projects\\androidEngineDemo\\build\\intermediates\\res\\merged\\debug\\drawable_listicon_28.png.flat",

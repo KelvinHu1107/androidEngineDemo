@@ -24,7 +24,7 @@
         android:scaleType="fitXY"
         android:background="#FFFFFFFF"
         android:clickable="true"/>
-    
+
     <include
         android:id="@+id/groupBottom"
         android:layout_width="match_parent"

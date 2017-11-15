@@ -19,11 +19,17 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:visibility="gone" 
+        android:visibility="gone"
         android:scaleType="fitXY"
         android:background="#FFFFFFFF"
         android:clickable="true"/>
-    
+
+    <include
+        android:id="@+id/hudPanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/hud_panel" />
+
     <include
         android:id="@+id/groupBottom"
         android:layout_width="match_parent"
@@ -141,7 +147,7 @@
         android:gravity="center_vertical|center_horizontal"
         android:text="TextView"
         android:textColor="#FFFFFFFF" />
-    
+
         <TextView
         android:id="@+id/txtSignPost3"
         android:layout_width="70dip"
@@ -155,7 +161,7 @@
         android:gravity="center_vertical|center_horizontal"
         android:text="TextView"
         android:textColor="#FFFFFFFF" />
-        
+
             <TextView
         android:id="@+id/txtSignPost4"
         android:layout_width="70dip"

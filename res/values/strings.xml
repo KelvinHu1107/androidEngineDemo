@@ -13,5 +13,7 @@
     <string name="title_activity_route_config">RouteConfigActivity</string>
     <string name="title_activity_route_list">RouteListActivity</string>
     <string name="title_activity_route_detail">RouteDetailActivity</string>
+    <string name="test">RouteDetailActivity</string>
+
 
 </resources>
